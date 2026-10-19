@@ -33,12 +33,5 @@
       }
     ],
     "screenshot": "community/communityday-adria.jpg"
-  },
-  {
-    "name": "AWS Community Day Switzerland",
-    "date": "2026-10-29",
-    "location": "Dietlikon (Zurich), Switzerland",
-    "url": "https://www.awsug.ch/",
-    "screenshot": "community/communityday-switzerland.jpg"
   }
 ]

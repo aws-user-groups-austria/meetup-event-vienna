@@ -10,7 +10,8 @@ Sources: `linda-mohamed.png` is the photo in the green blazer from the AWS Commu
 (`aws-community-austria-website/public/assets/organizers/`),
 `darko-mesaros.png` cut from the team's Canva announcement of Meetup #53.
 
-Also: `roman-jokel.png` and `mladen-trampic.png` cut from the Canva announcement of
+Also: `roman-jokel.png` cut from his photo on the website (`organizers/Roman.png`, the face at the
+same size as the others), `mladen-trampic.png` cut from the Canva announcement of
 Meetup #53, `gunnar-grosch.png` from the Canva announcement of Meetup #51
 ("Copy of AWS UG Vienna 2025", page 8). Past speakers without a file here get
 their Sessionize photo when they are on the group's Sessionize.
