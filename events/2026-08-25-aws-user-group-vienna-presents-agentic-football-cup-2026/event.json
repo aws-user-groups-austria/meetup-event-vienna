@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "id": "2026-08-25-aws-user-group-vienna-presents-agentic-football-cup-2026",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/315778998/",
+    "fetchedAt": "2026-10-19T19:16:27.431Z"
+  },
+  "title": "AWS User Group Vienna presents: Agentic Football Cup 2026",
+  "tagline": "The football summer may be over, but the next tournament is just kicking off - and this time, the teams are powered by AI.",
+  "image": "https://secure.meetupstatic.com/photos/event/b/c/f/2/highres_535308370.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2026-08-25T16:00:00+02:00",
+  "end": "2026-08-25T21:00:00+02:00",
+  "venue": {
+    "name": "Generali Arena",
+    "address": "Horrplatz 1, 1100 Wien"
+  },
+  "sponsors": [
+    {
+      "name": "DoIT",
+      "logo": "logos/doit.png"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2026-08-25T16:00:00+02:00",
+      "end": "2026-08-25T16:30:00+02:00",
+      "title": "Entry, registration & team forming"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2026-08-25T16:30:00+02:00",
+      "end": "2026-08-25T16:35:00+02:00",
+      "title": "Welcome and introduction - AWS User Group Vienna"
+    },
+    {
+      "id": "sponsor",
+      "kind": "sponsor",
+      "start": "2026-08-25T16:35:00+02:00",
+      "end": "2026-08-25T16:40:00+02:00",
+      "title": "Welcome from our sponsor, DoIT",
+      "sponsor": {
+        "name": "DoIT",
+        "logo": "logos/doit.png"
+      }
+    },
+    {
+      "id": "welcome-2",
+      "kind": "welcome",
+      "start": "2026-08-25T16:40:00+02:00",
+      "end": "2026-08-25T17:00:00+02:00",
+      "title": "Kick-off: Agentic Football Cup Introduction & Workshop Setup"
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2026-08-25T17:00:00+02:00",
+      "end": "2026-08-25T17:40:00+02:00",
+      "title": "Workshop - build and deploy your Agentic Football Team",
+      "talk": {
+        "title": "Workshop - build and deploy your Agentic Football Team",
+        "speakers": []
+      }
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2026-08-25T17:40:00+02:00",
+      "end": "2026-08-25T18:40:00+02:00",
+      "title": "Fine tune your agents & Practice Matches",
+      "talk": {
+        "title": "Fine tune your agents & Practice Matches",
+        "speakers": []
+      }
+    },
+    {
+      "id": "talk-3",
+      "kind": "talk",
+      "start": "2026-08-25T18:40:00+02:00",
+      "end": "2026-08-25T19:25:00+02:00",
+      "title": "Tournament",
+      "talk": {
+        "title": "Tournament",
+        "speakers": []
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2026-08-25T19:25:00+02:00",
+      "end": "2026-08-25T20:00:00+02:00",
+      "title": "Winners Ceremony, networking, food & drinks"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/315778998/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/315778998/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [
+    "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
+  ],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "id": "2025-04-15-aws-meetup-45",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307026109/",
+    "fetchedAt": "2026-10-19T19:16:27.467Z"
+  },
+  "title": "AWS Meetup #45 - hosted by SQUER",
+  "tagline": "Welcome to our next AWS User Group Vienna meetup!",
+  "image": "https://secure.meetupstatic.com/photos/event/7/6/f/highres_527101903.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2025-04-15T17:00:00+02:00",
+  "end": "2025-04-15T22:00:00+02:00",
+  "venue": {
+    "name": "SQUER",
+    "address": "Althanstraße 4/3/63, 1090 Vienna, 6th floor"
+  },
+  "sponsors": [
+    {
+      "name": "SQUER",
+      "logo": "logos/squer.svg"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2025-04-15T17:00:00+02:00",
+      "end": "2025-04-15T18:00:00+02:00",
+      "title": "Entry & Networking"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2025-04-15T18:00:00+02:00",
+      "end": "2025-04-15T18:05:00+02:00",
+      "title": "Welcome and Introduction AWS Community Vienna"
+    },
+    {
+      "id": "sponsor",
+      "kind": "sponsor",
+      "start": "2025-04-15T18:05:00+02:00",
+      "end": "2025-04-15T18:10:00+02:00",
+      "title": "Welcome and Introduction to the sponsors",
+      "sponsor": {
+        "name": "SQUER",
+        "logo": "logos/squer.svg"
+      }
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2025-04-15T18:10:00+02:00",
+      "end": "2025-04-15T18:50:00+02:00",
+      "title": "Managing AWS Sandboxes in your organisation with a breeze",
+      "talk": {
+        "title": "Managing AWS Sandboxes in your organisation with a breeze",
+        "speakers": [
+          {
+            "name": "Angjelo Thoma",
+            "role": "SQUER",
+            "photo": "https://cdn.sessionize.com/image/6c24-200o200o2-4uerPacVdT222xdHDPPra4.jpg",
+            "bio": "Angjelo is a Cloud engineer with a strong background in DevOps operations within the Insurtech sector. Passionate about Kubernetes, he specializes in designing creative, scalable, and secure solutions for modern infrastructure challenges.\n\nFurthermore, he hosts the Vienna Devops Meetup, as he enjoys sharing his learning with like-minded people. In his free time he snowboards and takes Maira (his dog) for walks!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "break-1",
+      "kind": "break",
+      "start": "2025-04-15T18:50:00+02:00",
+      "end": "2025-04-15T19:10:00+02:00",
+      "title": "Networking Break"
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2025-04-15T19:10:00+02:00",
+      "end": "2025-04-15T19:50:00+02:00",
+      "title": "Zero-Downtime Kubernetes Deployments on AWS with EKS",
+      "talk": {
+        "title": "Zero-Downtime Kubernetes Deployments on AWS with EKS",
+        "speakers": [
+          {
+            "name": "Philip Miglinci",
+            "role": "Co-Founder Glasskube",
+            "photo": "https://cdn.sessionize.com/image/b6f5-200o200o2-4JoiJ6Scs9zxEt8qJ7pKeK.jpg",
+            "bio": "Philip holds a Bachelor's degree in computer science and economics from the Vienna University of Technology and a Master's degree in Biomedical Engineering. In 2024 Philip co founded Glasskube, an Open Source Developer Tooling company that maintains among other projects an Open Source Package Manager for Kubernetes with over 3.000 stars. Before working on Glasskube, Philip helped build up the alerting infrastructure for firefighting organizations in Austria and Germany as CTO."
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2025-04-15T19:50:00+02:00",
+      "end": "2025-04-15T20:00:00+02:00",
+      "title": "Thank you & Closing"
+    },
+    {
+      "id": "closing-2",
+      "kind": "closing",
+      "start": "2025-04-15T20:00:00+02:00",
+      "end": "2025-04-15T22:00:00+02:00",
+      "title": "Networking"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307026109/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307026109/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

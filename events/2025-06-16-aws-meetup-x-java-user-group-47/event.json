@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "id": "2025-06-16-aws-meetup-x-java-user-group-47",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307735341/",
+    "fetchedAt": "2026-10-19T19:16:27.461Z"
+  },
+  "title": "AWS Meetup x Java User Group #47- hosted by TU Wien",
+  "tagline": "THE ULTIMATE JAVA + AWS EXPERIENCE!",
+  "image": "https://secure.meetupstatic.com/photos/event/6/7/a/1/highres_527846529.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2025-06-16T18:00:00+02:00",
+  "end": "2025-06-16T22:00:00+02:00",
+  "venue": {
+    "name": "TU FH HS1",
+    "address": "Wiedner Hauptstraße 8, 1040"
+  },
+  "sponsors": [
+    {
+      "name": "TU Wien",
+      "logo": "logos/tu-wien.svg"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2025-06-16T18:00:00+02:00",
+      "end": "2025-06-16T18:30:00+02:00",
+      "title": "Entry & Networking"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2025-06-16T18:30:00+02:00",
+      "end": "2025-06-16T18:35:00+02:00",
+      "title": "Welcome and Introduction"
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2025-06-16T18:35:00+02:00",
+      "end": "2025-06-16T19:15:00+02:00",
+      "title": "Making sense of AWS Serverless operations",
+      "talk": {
+        "title": "Making sense of AWS Serverless operations",
+        "speakers": [
+          {
+            "name": "Vadym Kazulkin",
+            "role": "Head of Development at ip.labs in Bonn, Germany",
+            "photo": "https://cdn.sessionize.com/image/8af5-200o200o2-7f-e3a8-41ed-8b88-597c41f8330d.f6cfc763-005b-4e08-9d7a-99f5204fae4a.jpg",
+            "bio": "Vadym Kazulkin is Head of Development at ip.labs GmbH, a 100% subsidiary of the FUJIFILM Group, based in Bonn. ip.labs is the world's leading white label e-commerce software imaging company. Vadym has been involved with the Java ecosystem for over twenty years. His focus and interests currently include the design and implementation of highly scalable and available applications, Serverless and AWS Cloud. Vadym is the co-organizer of the Java User Group Bonn meetup and AWS Community Builder in the Serverless category and a frequent speaker at various Meetups and conferences."
+          }
+        ]
+      }
+    },
+    {
+      "id": "break-1",
+      "kind": "break",
+      "start": "2025-06-16T19:15:00+02:00",
+      "end": "2025-06-16T19:30:00+02:00",
+      "title": "Networking Break"
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2025-06-16T19:30:00+02:00",
+      "end": "2025-06-16T20:10:00+02:00",
+      "title": "Event-driven architecture patterns in highly scalable image storage solution",
+      "talk": {
+        "title": "Event-driven architecture patterns in highly scalable image storage solution",
+        "speakers": [
+          {
+            "name": "Vadym Kazulkin",
+            "role": "Head of Development at ip.labs in Bonn, Germany",
+            "photo": "https://cdn.sessionize.com/image/8af5-200o200o2-7f-e3a8-41ed-8b88-597c41f8330d.f6cfc763-005b-4e08-9d7a-99f5204fae4a.jpg",
+            "bio": "Vadym Kazulkin is Head of Development at ip.labs GmbH, a 100% subsidiary of the FUJIFILM Group, based in Bonn. ip.labs is the world's leading white label e-commerce software imaging company. Vadym has been involved with the Java ecosystem for over twenty years. His focus and interests currently include the design and implementation of highly scalable and available applications, Serverless and AWS Cloud. Vadym is the co-organizer of the Java User Group Bonn meetup and AWS Community Builder in the Serverless category and a frequent speaker at various Meetups and conferences."
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2025-06-16T20:10:00+02:00",
+      "end": "2025-06-16T20:15:00+02:00",
+      "title": "Thank you & Closing"
+    },
+    {
+      "id": "closing-2",
+      "kind": "closing",
+      "start": "2025-06-16T20:15:00+02:00",
+      "end": "2025-06-16T22:00:00+02:00",
+      "title": "Networking"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307735341/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307735341/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

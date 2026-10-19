@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "id": "2026-04-22-aws-meetup-50",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314152267/",
+    "fetchedAt": "2026-10-19T19:16:27.443Z"
+  },
+  "title": "AWS Meetup #50 - hosted by Bytesource",
+  "tagline": "After \"winter is coming\" we finally can say \"spring is coming\" to Vienna!",
+  "image": "https://secure.meetupstatic.com/photos/event/1/4/8/a/highres_533585258.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2026-04-22T17:00:00+02:00",
+  "end": "2026-04-22T21:00:00+02:00",
+  "venue": {
+    "name": "The Atelier",
+    "address": "Impact Hub Vienna, Lindengasse 56, 1070 Wien"
+  },
+  "sponsors": [
+    {
+      "name": "Bytesource",
+      "short": "Bytesource",
+      "logo": "logos/bytesource.svg",
+      "url": "https://bytesource.net/de/"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2026-04-22T17:00:00+02:00",
+      "end": "2026-04-22T18:00:00+02:00",
+      "title": "Entry & Networking"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2026-04-22T18:00:00+02:00",
+      "end": "2026-04-22T18:05:00+02:00",
+      "title": "Welcome and Introduction AWS Community Vienna"
+    },
+    {
+      "id": "sponsor",
+      "kind": "sponsor",
+      "start": "2026-04-22T18:05:00+02:00",
+      "end": "2026-04-22T18:10:00+02:00",
+      "title": "Welcome and Introduction to the sponsors (Bytesource)",
+      "sponsor": {
+        "name": "Bytesource",
+        "short": "Bytesource",
+        "logo": "logos/bytesource.svg"
+      }
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2026-04-22T18:10:00+02:00",
+      "end": "2026-04-22T19:00:00+02:00",
+      "title": "Sales Copilot: Turn complex technical inquiries into clear, accurate offers in minutes, not hours!",
+      "talk": {
+        "title": "Sales Copilot: Turn complex technical inquiries into clear, accurate offers in minutes, not hours!",
+        "abstract": "Sales CoPilot as a solution that helps teams turn complex technical customer inquiries into clear, accurate quotations much faster, reducing turnaround from hours to minutes.\n\nThe business problem: technical sales requests are slow, difficult, and error-prone when handled manually.\n\nThe Solution: Our Sales CoPilot interprets complex requirements, works with documentation and technical data, and supports offer preparation.\n\nTechnology foundation: strong emphasis on AWS as the enabler, plus AI/LLM-driven processing. Architecture choice: a set of core AWS services to deliver both the user-facing application and the AI-powered data processing pipeline. Amazon S3 stores uploaded product datasheets and hosts the frontend assets, while Amazon CloudFront accelerates and securely delivers the web interface to users. Incoming application traffic is routed through an Application Load Balancer (ALB) to containerized services running on Amazon ECS, which handle both backend business logic and document ingestion tasks. For AI capabilities, Amazon Bedrock is used in two places: to extract and transform structured information from PDF datasheets, and to power the agentic logic behind the application. Persistent structured data is stored in Amazon Aurora PostgreSQL, which supports read/write operations from the backend. Together, these AWS services provide a scalable, cloud-native architecture for hosting, processing, AI enrichment, and application delivery.\n\n###",
+        "speakers": [
+          {
+            "name": "Alexander Matev",
+            "role": "CISO",
+            "company": "Bytesource",
+            "photo": "https://cdn.sessionize.com/image/f3dd-200o200o2-B8FopGW8bQtmBm34J4A5BV.jpg",
+            "bio": "- CISO at ByteSoruce - Part of the development team for AI products @ByteSource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "break-1",
+      "kind": "break",
+      "start": "2026-04-22T19:00:00+02:00",
+      "end": "2026-04-22T19:20:00+02:00",
+      "title": "Networking break"
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2026-04-22T19:20:00+02:00",
+      "end": "2026-04-22T20:00:00+02:00",
+      "title": "Beyond Vibe Coding",
+      "talk": {
+        "title": "Beyond Vibe Coding",
+        "abstract": "AI agents are changing how engineers write, test, and ship code. This talk explores what agentic coding looks like in practice - the workflow, the tradeoffs, and the tools that make it work.\n\nWe'll cover how to collaborate effectively with AI agents: prompting, reviewing, iterating, and knowing when to take over. We'll look at what changes when development gets significantly faster - testing strategies, CI/CD pipelines, and team coordination all need to keep up. Then we'll introduce Kiro, an agentic IDE that uses spec-driven development, steering rules, and hooks to let engineers define how the agent operates within their codebase. We'll also look at AWS DevOps Agent - an autonomous operations teammate that correlates metrics, logs, and deployment history to investigate incidents and identify root causes before you even open your laptop.",
+        "speakers": [
+          {
+            "name": "Sergio Lopez-Gehler",
+            "role": "Solutions Architect",
+            "company": "AWS",
+            "photo": "https://cdn.sessionize.com/image/a5fd-200o200o2-3b78bNhNqef8SG7ApVKnJx.jpg",
+            "bio": "Sergio is a Solutions Architect at AWS, based in Vienna, Austria. He brings a strong background in Data Engineering, Data Science, and Machine Learning. Since the emergence of LLMs, he has been deep in the trenches building applications that leverage this technology — from RAG pipelines to agentic flows and everything in between. Before making the jump to tech, he spent years in academia as a physicist, working across Astronomy and Particle Physics."
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2026-04-22T20:00:00+02:00",
+      "end": "2026-04-22T21:00:00+02:00",
+      "title": "Networking"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314152267/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314152267/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [
+    "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
+  ],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

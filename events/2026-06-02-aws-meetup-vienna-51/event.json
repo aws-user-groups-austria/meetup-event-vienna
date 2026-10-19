@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "id": "2026-06-02-aws-meetup-vienna-51",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314914273/",
+    "fetchedAt": "2026-10-19T19:16:27.437Z"
+  },
+  "title": "AWS Meetup Vienna #51 - hosted by Eversports",
+  "tagline": "Summer is arriving in Vienna - and so is our next AWS meetup!",
+  "image": "https://secure.meetupstatic.com/photos/event/d/d/6/8/highres_534356680.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2026-06-02T17:00:00+02:00",
+  "end": "2026-06-02T21:00:00+02:00",
+  "venue": {
+    "name": "Eversport GmbH",
+    "address": "Jakov-Lind-Straße 13 H/5. OG, 1020 Wien"
+  },
+  "sponsors": [
+    {
+      "name": "Eversports",
+      "short": "Eversports",
+      "logo": "logos/eversports.svg",
+      "url": "https://www.eversports.at/"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2026-06-02T17:00:00+02:00",
+      "end": "2026-06-02T18:00:00+02:00",
+      "title": "Entry & Networking"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2026-06-02T18:00:00+02:00",
+      "end": "2026-06-02T18:05:00+02:00",
+      "title": "Welcome and Introduction AWS Community Vienna"
+    },
+    {
+      "id": "sponsor",
+      "kind": "sponsor",
+      "start": "2026-06-02T18:05:00+02:00",
+      "end": "2026-06-02T18:10:00+02:00",
+      "title": "Welcome and Introduction to the sponsors (Eversports)",
+      "sponsor": {
+        "name": "Eversports",
+        "short": "Eversports",
+        "logo": "logos/eversports.svg"
+      }
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2026-06-02T18:10:00+02:00",
+      "end": "2026-06-02T18:50:00+02:00",
+      "title": "How RBI is automating its cloud foundation with AWS Step Functions",
+      "talk": {
+        "title": "How RBI is automating its cloud foundation with AWS Step Functions",
+        "abstract": "How can AWS Step Functions transform daily cloud operations? Join us to explore how RBI is using workflow orchestration to automate its cloud foundation. We’ll share practical insights from our Cloud Center of Excellence, demonstrating how Step Functions power landing zone operations, simplify automation, speed up deployments and enable scalable cloud governance across the organization.",
+        "speakers": [
+          {
+            "name": "Roman Jokel",
+            "role": "Cloud Architect",
+            "company": "Raiffeisen Informatik",
+            "photo": "people/roman-jokel.png",
+            "bio": "Roman Jokel is a Cloud Architect at Raiffeisen Bank International (RBI) in Vienna, where he works on the bank's AWS cloud foundation, including automating landing zone operations with AWS Step Functions in RBI's Cloud Center of Excellence. He has presented RBI's cloud work at AWS Summit Zurich 2024 and AWS Summit Hamburg 2025, holds the AWS Solutions Architect - Professional, Advanced Networking - Specialty and Security - Specialty certifications, and is a co-organizer of the AWS User Group Vienna.",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/roman-jokel/"
+              }
+            ]
+          },
+          {
+            "name": "Florian Ettinger",
+            "role": "Solution Architect",
+            "company": "AWS",
+            "photo": "people/florian-ettinger.png",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/florian-ettinger/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "break-1",
+      "kind": "break",
+      "start": "2026-06-02T18:50:00+02:00",
+      "end": "2026-06-02T19:20:00+02:00",
+      "title": "Networking break"
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2026-06-02T19:20:00+02:00",
+      "end": "2026-06-02T20:00:00+02:00",
+      "title": "Building Conversational Agents in Code with AWS Lambda Durable Functions",
+      "talk": {
+        "title": "Building Conversational Agents in Code with AWS Lambda Durable Functions",
+        "abstract": "Building agentic AI workflows typically requires Step Functions or complex database state machines to handle human delays. AWS Lambda Durable Functions change that. You write sequential code in a single Lambda function that can suspend for days and resume instantly, and you only pay for active compute time. In this session, we will orchestrate Amazon Bedrock conversational agents using the Sinch Conversation API to handle inbound interactions. You will learn how to dispatch AI specialists, use simple callbacks to wait for asynchronous human input, and replace heavy infrastructure boilerplate with native durable execution.",
+        "speakers": [
+          {
+            "name": "Gunnar Grosch",
+            "role": "Developer Advocate",
+            "company": "Sinch | ex-AWS | AWS Serverless Hero",
+            "photo": "people/gunnar-grosch.png",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gunnargrosch/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2026-06-02T20:00:00+02:00",
+      "end": "2026-06-02T21:00:00+02:00",
+      "title": "Networking"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314914273/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314914273/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [
+    "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
+  ],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

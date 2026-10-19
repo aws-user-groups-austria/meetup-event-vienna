@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "2025-05-07-aws-meetup-46-workshop",
+  "title": "AWS Meetup #46 & Workshop - hosted by ByteSource",
+  "number": 46,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307421627/",
+  "start": "2025-05-07T17:00:00+02:00",
+  "end": "2025-05-07T19:00:00+02:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "Barocke Suiten, MuseumsQuartier",
+    "address": "Museumsplatz 1"
+  },
+  "hosts": [
+    {
+      "name": "ByteSource"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/6/a/3/highres_527521699.jpeg",
+  "summary": "Welcome to our next AWS User Group Vienna meetup!",
+  "description": "Welcome to our next **AWS User Group Vienna** meetup!\n\n**Entry AWS Workshop: 15:00 (Fully booked, no more registrations possible)**\n\n**Entry AWS Meetup: 17:00**\n**Start Meetup: 18:00**\n\nDoors open at 15:00 for networking and the AWS Workshop, food and drinks, and we start our talks at 18:00.\n\n**1\\. Workshop: Build near real\\-time LLM\\-powered features for monolithic applications \\(Fully booked\\, no more registrations possible\\)**\nby Franz Stefan, Robert Hanuschke, Viktor Vedmich, Florian Ettinger, Wolfgang Fuker and Manmohit Pal Singh from AWS\n\n**What is the session about?**\n\n* Ever needed to build new event-driven features for an existing black box or COTS application without access to the source code? In this workshop session, learn how to setup a data streaming pipeline with AWS DMS and AWS OpenSearch Serverless to build new event-driven features for existing applications using change data capture. Using this event stream and Amazon Bedrock, build a new feature to generate embeddings in near real time and store them in a Retrieval Augmented Generation knowledge base. Then, leveraging Amazon Bedrock and AWS Lambda, build an Al-powered chatbot that can respond with insights about live events in the legacy application.\n\n**IMPORTANT: You must bring your laptop to participate.**\n\nServices: Amazon Bedrock, Amazon OpenSearch Serverless, AWS Database Migration Service (AWS DMS)\n\n\\*\\*\\*\n\n**2\\. Beyond Basics: Advanced RAG Techniques with Amazon Bedrock**\nby Manuel Lindner, Senior Consultant at ByteSource\n\n**What is the session about?**\n\n* Retrieval-Augmented Generation (RAG) is a powerful paradigm for building intelligent, context-aware AI applications. In this session, we’ll dive into advanced RAG architectures and best practices using Amazon Bedrock. Learn how to combine foundation models with vector databases, hybrid search strategies, and multi-step retrieval chains to build highly accurate and reliable GenAI solutions. Whether you’re designing internal copilots, customer-facing chatbots, or domain-specific search assistants, this talk will provide deep technical insights and real-world implementation patterns that go beyond the basics.\n\n**Who will present?**\n\n* Manuel is Senior Consultant at ByteSource with over 10 years of hands-on experience in designing and implementing robust cloud solutions. Over the past 1.5 years, I’ve been diving deep into the world of Generative AI, focusing on how to apply these emerging technologies in real-world and cloud-native environments. I’m passionate about building scalable, secure solutions and enjoy sharing insights that bridge innovation and practical implementation.\n\n\\*\\*\\*\n\n**3\\. Building AI Agents on AWS with Model Context Protocol \\(MCP\\): Foundations\\, Use Cases**\nby Viktor Vedmich, Senior Developer Advocate at AWS\n\n**What is the session about?**\n\n* TBD\n\n**Who will present?**\n\n* During his career, Viktor managed to work as a developer, a systems engineer and as Systems Architect. For a long time, he worked combining the two roles of a system architect and engineer on projects based on Kubernetes. Always shares knowledge, when possible, through speeches, audio and video podcasts\n\n\\*\\*\\*\n\n**Agenda**\n\\-\\-\\- AWS Workshop \\-\\-\\-\n**15:00 - 15:30** Entry for AWS Workshop\n**15:30 - 17:30** AWS Workshop\n\n\\-\\-\\- AWS Meetup \\-\\-\\-\n**17:00 - 18:00:** Entry & Networking\n**18:00 - 18:05:** Welcome and Introduction AWS Community Vienna\n**18:05 - 18:10:** Welcome and Introduction to the sponsors\n**18:10 - 18:50:** Beyond Basics: Advanced RAG Techniques with Amazon Bedrock\n**18:50 - 19:10:** Networking Break\n**19:10 - 19:50:** Building AI Agents on AWS with Model Context Protocol (MCP): Foundations, Use Cases\n**19:50 - 20:00:** Thank you & Closing\n**20:00 - Open End:** Networking\n\n\\*\\*\\*\n\n**With your RSVP you confirm, that you agree to our [code of conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf)**\n\n\\-\\-\\- SPONSORING \\-\\-\\-\nThis event is sponsored by ByteSource",
+  "talks": [
+    {
+      "title": "AWS Workshop",
+      "speakers": []
+    }
+  ],
+  "stream": true
+}

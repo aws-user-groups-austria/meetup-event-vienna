@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "2026-10-20-aws-meetup-vienna-53",
+  "title": "AWS Meetup Vienna #53 - hosted by RBI",
+  "number": 53,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/316893745/",
+  "start": "2026-10-20T17:00:00+02:00",
+  "end": "2026-10-20T22:00:00+02:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "Raiffeisen Bank International",
+    "address": "Mooslackengasse 12, 1190 Wien, Austria"
+  },
+  "hosts": [
+    {
+      "name": "RBI"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/c/d/4/8/highres_536512552.jpeg",
+  "summary": "Autumn is arriving in Vienna - and so is our next AWS meetup!",
+  "description": "Autumn is arriving in Vienna - and so is our next AWS meetup!\n\nIn this October edition, we’ll explore what AI-assisted cloud operations looks like in practice: from using AWS DevOps Agent to investigate incidents, correlate signals, and support real DevOps workflows, to building safer and more trustworthy AI agents for production. Our speakers will share hands-on lessons, real-world examples, and practical patterns for rolling out AI agents responsibly in AWS environments.\n\nA big thank you to [Raiffeisen Bank International AG](https://www.rbinternational.com/de/raiffeisen.html) for supporting the community and making the meetup possible!\n\n***\n\n **Location**\nRaiffeisen Bank International\nMooslackengasse 12, 1190 Wien, Austria\n\n **When**\n**October 20nd 2026**\nDoors open at 17:00 for networking, food & drinks.\nTalks start at 18:00.\n\n***\n\n **Agenda**\n\n* **17:00 - 18:00:** Entry & Networking\n* **18:00 - 18:05:** Welcome and Introduction AWS Community Vienna\n* **18:05 - 18:10:** Welcome and Introduction to the sponsors (**Raiffeisen Bank International**)\n* **18:10 - 18:50:** **\"Teaching an AI to Debug Our Cloud: AWS DevOps Agent in Practice\"**\n* **18:50 - 19:20:** Networking break\n* **19:20 - 20:00:** **\"I don't trust my agents!\"**\n* **20:00 - Open End:** Networking\n\n**\"Teaching an AI to Debug Our Cloud: AWS DevOps Agent in Practice\"**\n*Speakers:*\n**[Roman Jokel](https://www.linkedin.com/in/roman-jokel/),** Cloud Architect (Raiffeisen Bank International)\n**[Mladen Trampic](https://www.linkedin.com/in/trampic/)**, Senior Technical Account Manager@AWS\n\n*About the talk:*\nAWS DevOps Agent is AWS's AI-powered teammate for operations - it investigates incidents, correlates logs/metrics/traces/deployments, proposes mitigations, and learns your environment over time through custom skills and memory. In this talk, we'll walk through what it can actually do, how we rolled it out across our AWS organization, the custom skills we built to teach it our environment (networking, IAM, account provisioning, firewall logs, and more), and the real incidents it has helped us resolve. We'll close with the honest lessons learned - what worked, what surprised us, and what we'd do differently - so you can walk away with a realistic picture of what AI-assisted operations looks like in practice, not just in theory.\n\n**\"I don't trust my agents!\"**\n*Speaker:* [Darko Mesaroš](https://www.linkedin.com/in/darko-mesaros/) Principal Technologist@AWS\n\n*About the talk:*\nYour AI agent works great in the demo. Then you deploy it and it hallucinates a refund policy, exposes customer data, or just loops endlessly burning tokens. This session walks through a layered approach to agent safety using tools like Amazon Bedrock AgentCore and the Strands Agents SDK: guardrails, observability, multi-agent safety patterns, and reference architectures you can adapt immediately.\n\n***\n\n **Sponsors:**\n\n* **RBI** - [Raiffeisen Bank International AG](https://www.rbinternational.com/de/raiffeisen.html)\n\n***\n\n **RSVP now** and invite your colleagues to celebrate, learn, and connect with the AWS community!\n\nBy RSVPing, you confirm that you agree to our [Code of Conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf).\n**By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required.**",
+  "talks": [
+    {
+      "title": "Teaching an AI to Debug Our Cloud: AWS DevOps Agent in Practice",
+      "speakers": [
+        {
+          "name": "Roman Jokel",
+          "role": "Cloud Architect",
+          "company": "Raiffeisen Bank International"
+        },
+        {
+          "name": "Mladen Trampic",
+          "role": "Senior Technical Account Manager",
+          "company": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "I don't trust my agents!",
+      "speakers": [
+        {
+          "name": "Darko Mesaroš",
+          "role": "Principal Technologist",
+          "company": "AWS"
+        }
+      ]
+    }
+  ],
+  "stream": true
+}

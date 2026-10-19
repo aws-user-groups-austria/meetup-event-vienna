@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "2025-04-15-aws-meetup-45",
+  "title": "AWS Meetup #45 - hosted by SQUER",
+  "number": 45,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307026109/",
+  "start": "2025-04-15T17:00:00+02:00",
+  "end": "2025-04-15T22:00:00+02:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "SQUER",
+    "address": "Althanstraße 4/3/63, 1090 Vienna, 6th floor"
+  },
+  "hosts": [
+    {
+      "name": "SQUER"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/7/6/f/highres_527101903.jpeg",
+  "summary": "Welcome to our next AWS User Group Vienna meetup!",
+  "description": "Welcome to our next **AWS User Group Vienna** meetup!\n\n**Entry: 17:00**\n**Start: 18:00**\n\nDoors open at 17:00 for networking, food and drinks, and we start our talks at 18:00.\n\n\\*\\*\\*\n**Sandbox Management & Kubernetes Deployments**\n\\*\\*\\*\n\n**1\\. Managing AWS Sandboxes in your organisation with a breeze**\nby Angjelo Thoma, Cloud Engineer at SQUER\n\n**What is the session about?**\n\n* In the dynamic world of cloud environments, managing sandbox accounts effectively is key to balancing innovation with governance. This talk will explore strategies for setting up and securing AWS sandbox accounts while enforcing policies and cost controls. Dive into the power of AWS Control Tower to set sandbox limits, ensuring a controlled yet flexible space for experimentation and development.\n\n**Who will present?**\n\n* Angjelo is a Cloud engineer with a strong background in DevOps operations within the Insurtech sector. Passionate about Kubernetes, he specializes in designing creative, scalable, and secure solutions for modern infrastructure challenges.\nFurthermore, he hosts the Vienna Devops Meetup, as he enjoys sharing his learning with like-minded people. In his free time he snowboards and takes Maira (his dog) for walks!\n\n\\*\\*\\*\n\n**2\\. Zero\\-Downtime Kubernetes Deployments on AWS with EKS**\nby Philip Miglinci, Co-Founder at Glasskube\n\n**What is the session about?**\n\n* If you have ever hosted a web-application on EKS, Amazon's managed Kubernetes offering, you are most-likely familiar with the AWS Load Balancer Controller project (formerly AWS ALB Ingress Controller). If you have also upgraded that application, you might also be familiar with some requests failing to connect to your backend just when the roll out happens.\nIn this session we want to take a look at Kubernetes Networking, Pod Readiness Gates, Graceful Application Shutdown and Termination Delay with sidecars.\n\n**Who will present?**\n\n* Philip holds a Bachelor's degree in computer science and economics from the Vienna University of Technology and a Master's degree in Biomedical Engineering.\nIn 2024 Philip co founded Glasskube, an Open Source Developer Tooling company that maintains among other projects an Open Source Package Manager for Kubernetes with over 3.000 stars.\nBefore working on Glasskube, Philip helped build up the alerting infrastructure for firefighting organizations in Austria and Germany as CTO.\n\n\\*\\*\\*\n\n**Agenda**\n**17:00 - 18:00:** Entry & Networking\n**18:00 - 18:05:** Welcome and Introduction AWS Community Vienna\n**18:05 - 18:10:** Welcome and Introduction to the sponsors\n**18:10 - 18:50:** Managing AWS Sandboxes in your organisation with a breeze\n**18:50 - 19:10:** Networking Break\n**19:10 - 19:50:** Zero-Downtime Kubernetes Deployments on AWS with EKS\n**19:50 - 20:00:** Thank you & Closing\n**20:00 - Open End:** Networking\n\n\\*\\*\\*\n\n**With your RSVP you confirm, that you agree to our [code of conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf)**\n\n\\-\\-\\- SPONSORING \\-\\-\\-\nThis event is sponsored by SQUER",
+  "talks": [
+    {
+      "title": "Managing AWS Sandboxes in your organisation with a breeze",
+      "speakers": [
+        {
+          "name": "Angjelo Thoma",
+          "role": "SQUER"
+        }
+      ]
+    },
+    {
+      "title": "Zero-Downtime Kubernetes Deployments on AWS with EKS",
+      "speakers": [
+        {
+          "name": "Philip Miglinci",
+          "role": "Co-Founder Glasskube"
+        }
+      ]
+    }
+  ],
+  "stream": true
+}

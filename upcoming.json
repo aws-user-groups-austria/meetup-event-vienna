@@ -1,0 +1,44 @@
+[
+  {
+    "name": "AWS Community Day Malta",
+    "date": "2026-10-15",
+    "endDate": "2026-10-16",
+    "location": "St Julian's, Malta",
+    "url": "https://www.awscommunityday.mt/",
+    "speakers": [
+      {
+        "name": "Dmytro Hlotenko",
+        "photo": "people/dmytro-hlotenko.png"
+      }
+    ],
+    "screenshot": "community/communityday-malta.jpg"
+  },
+  {
+    "name": "AWS Community Day Adria",
+    "date": "2026-10-22",
+    "location": "Ljubljana, Slovenia",
+    "url": "https://awscommunityadria.com/",
+    "speakers": [
+      {
+        "name": "Linda Mohamed",
+        "photo": "people/linda-mohamed.png"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "photo": "people/dmytro-hlotenko.png"
+      },
+      {
+        "name": "Darko Mesaroš",
+        "photo": "people/darko-mesaros.png"
+      }
+    ],
+    "screenshot": "community/communityday-adria.jpg"
+  },
+  {
+    "name": "AWS Community Day Switzerland",
+    "date": "2026-10-29",
+    "location": "Dietlikon (Zurich), Switzerland",
+    "url": "https://www.awsug.ch/",
+    "screenshot": "community/communityday-switzerland.jpg"
+  }
+]

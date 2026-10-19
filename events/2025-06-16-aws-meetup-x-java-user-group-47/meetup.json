@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "2025-06-16-aws-meetup-x-java-user-group-47",
+  "title": "AWS Meetup x Java User Group #47- hosted by TU Wien",
+  "number": 47,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/307735341/",
+  "start": "2025-06-16T18:00:00+02:00",
+  "end": "2025-06-16T22:00:00+02:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "TU FH HS1",
+    "address": "Wiedner Hauptstraße 8, 1040"
+  },
+  "hosts": [
+    {
+      "name": "TU Wien"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/6/7/a/1/highres_527846529.jpeg",
+  "summary": "This special joint meetup between AWS Community Vienna and Java User Group Vienna brings together two powerful technology ecosystems through the expertise of Vadym Kazulkin.",
+  "description": "**THE ULTIMATE JAVA + AWS EXPERIENCE!**\n\n**Entry: 18:00**\n**Start: 18:30**\n\nThis special joint meetup between AWS Community Vienna and [Java User Group Vienna ](https://www.meetup.com/java-vienna/events/305897281/)brings together two powerful technology ecosystems through the expertise of [Vadym Kazulkin](https://www.linkedin.com/in/ACoAAAZiPSIBlSWq5_scBw9BNnemeT6DIVISHCg/). As an AWS Hero Vadym expertly bridges these worlds with practical insights gained from implementing serverless architectures at enterprise scale.\n\n**IMPORTANT!** Please RSVP only at one event on meetup (here or at the Java UG)!\n\nDoors open at 18:00 for networking and the AWS Workshop, food and drinks, and we start our talks at 18:30.\n\n**1\\. High performance Serverless Java on AWS**\nby **[Vadym Kazulkin](https://sessionize.com/app/organizer/speaker/12910/6035e87f-e3a8-41ed-8b88-597c41f8330d)**, Head of Development at ip.labs\n**What is the session about?**\n\n* Java is for many years one of the most popular programming languages, but it used to have hard times in the Serverless community. Java is known for its high cold start times and high memory footprint, comparing to other programming languages like Node and Python. In this talk I'll look at the general best practices and techniques we can use to decrease memory consumption and cold start times for Java Serverless applications on AWS Lambda including GraalVM (Native Image) and AWS own offering SnapStart based on Firecracker microVM snapshot and restore and CRaC (Coordinated Restore at Checkpoint) runtime hooks. We'll also look into the SnapStart priming techniques which help us increase the Lambda performance and explore how AWS Lambda Profiler for Java can help us identify this potential. We'll also explore the impact of the SnapStart snapshot tiered low-latency cache on the cold start times.\n\n**2\\. How to develop\\, run and optimize Spring Boot 3 application on AWS Lambda**\nby **[Vadym Kazulkin](https://sessionize.com/app/organizer/speaker/12910/6035e87f-e3a8-41ed-8b88-597c41f8330d)**, Head of Development at ip.labs\n**What is the session about?**\n\n* This technical deep-dive explores multiple approaches for deploying Spring Boot 3 applications on AWS Lambda, comparing AWS Serverless Java Container, Lambda Web Adapter, Spring Cloud Function, and custom Docker images. The session examines critical cold start optimization techniques through GraalVM Native Image, AWS SnapStart with Firecracker microVM snapshots, and CRaC runtime hooks. You'll learn practical priming strategies for further reducing initialization times, understand the benefits of snapshot tiered caching, and gain insights into optimizing both cold and warm execution performance for production-ready Spring Boot Lambda functions.\n\n**Who will present?**\n\n* Vadym Kazulkin is Head of Development at ip.labs GmbH, a 100% subsidiary of the FUJIFILM Group, based in Bonn. ip.labs is the world's leading white label e-commerce software imaging company. Vadym has been involved with the Java ecosystem for over twenty years. His focus and interests currently include the design and implementation of highly scalable and available applications, Serverless and AWS Cloud. Vadym is the co-organizer of the Java User Group Bonn meetup and AWS Community Builder in the Serverless category and a frequent speaker at various Meetups and conferences.\n\n**Agenda**\n\n**18:00 - 18:30:** Entry & Networking\n**18:30 - 18:35:** Welcome and Introduction\n**18:35 - 19:15:** Making sense of AWS Serverless operations\n**19:15 - 19:30:** Networking Break\n**19:30 - 20:10:** Event-driven architecture patterns in highly scalable image storage solution\n**20:10 - 20:15:** Thank you & Closing\n**20:15 - Open End:** Networking\n\n**With your RSVP you confirm, that you agree to our [code of conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf)**\n\n\\-\\-\\- SPONSORING \\-\\-\\-\nThis event is supported by TU Wien and donors of Java User Group Vienna",
+  "talks": [
+    {
+      "title": "Making sense of AWS Serverless operations",
+      "speakers": [
+        {
+          "name": "Vadym Kazulkin",
+          "role": "Head of Development at ip.labs in Bonn, Germany"
+        }
+      ]
+    },
+    {
+      "title": "Event-driven architecture patterns in highly scalable image storage solution",
+      "speakers": [
+        {
+          "name": "Vadym Kazulkin",
+          "role": "Head of Development at ip.labs in Bonn, Germany"
+        }
+      ]
+    }
+  ],
+  "stream": true
+}

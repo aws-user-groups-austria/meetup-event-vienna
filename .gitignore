@@ -1,0 +1,13 @@
+# Saved Meetup pages carry account data and tokens when saved from a logged-in browser.
+events/*/page.html
+*.html
+.DS_Store
+
+# The group deck holds organizer emails and photos: local only, never committed.
+deck/*.pptx
+events/*/deck.pptx
+events/*/deck/
+# Canva exports (header and speaker images, with speaker photos): local only.
+events/*/canva/*.png
+# make review output (links to local files)
+events/*/review/

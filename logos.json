@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Raiffeisen Bank International",
+    "aliases": [
+      "RBI",
+      "Raiffeisen Bank International AG"
+    ],
+    "logo": "logos/rbi.svg"
+  },
+  {
+    "name": "Eversports",
+    "aliases": [
+      "eversports.at",
+      "Eversport GmbH",
+      "Eversports GmbH"
+    ],
+    "logo": "logos/eversports.svg"
+  },
+  {
+    "name": "ByteSource",
+    "aliases": [
+      "Bytesource",
+      "bytesource.net",
+      "ByteSource Technology Consulting GmbH"
+    ],
+    "logo": "logos/bytesource.svg"
+  },
+  {
+    "name": "TU Wien",
+    "aliases": [
+      "Technische Universität Wien",
+      "TU Wien Informatics"
+    ],
+    "logo": "logos/tu-wien.svg"
+  },
+  {
+    "name": "DoIT",
+    "aliases": [
+      "DoiT",
+      "DoiT International",
+      "doit.com"
+    ],
+    "logo": "logos/doit.png"
+  },
+  {
+    "name": "SQUER",
+    "aliases": [
+      "SQUER GmbH",
+      "squer.io"
+    ],
+    "logo": "logos/squer.svg"
+  },
+  {
+    "name": "Labyrinth Labs",
+    "aliases": [
+      "lablabs",
+      "lablabs.io",
+      "Labyrinth Labs s.r.o."
+    ],
+    "logo": "logos/labyrinth-labs.svg"
+  },
+  {
+    "name": "Raiffeisen Informatik",
+    "aliases": [
+      "Raiffeisen Informatik GmbH & Co KG",
+      "raiffeiseninformatik.at"
+    ],
+    "logo": "logos/raiffeisen-informatik.svg"
+  },
+  {
+    "name": "enspired",
+    "aliases": [
+      "Enspired",
+      "enspired GmbH",
+      "enspired-trading.com"
+    ],
+    "logo": "logos/enspired.png"
+  }
+]

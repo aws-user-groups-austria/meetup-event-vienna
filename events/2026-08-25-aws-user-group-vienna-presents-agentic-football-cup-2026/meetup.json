@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "2026-08-25-aws-user-group-vienna-presents-agentic-football-cup-2026",
+  "title": "AWS User Group Vienna presents: Agentic Football Cup 2026",
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/315778998/",
+  "start": "2026-08-25T16:00:00+02:00",
+  "end": "2026-08-25T21:00:00+02:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "Generali Arena",
+    "address": "Horrplatz 1, 1100 Wien"
+  },
+  "hosts": [
+    {
+      "name": "DoIT"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/b/c/f/2/highres_535308370.jpeg",
+  "summary": "The football summer may be over, but the next tournament is just kicking off - and this time, the teams are powered by AI.",
+  "description": "**The football summer may be over, but the next tournament is just kicking off - and this time, the teams are powered by AI.**\n\nJoin **AWS User Group Vienna** for a special **Agentic Football Cup** edition hosted by us at the real football **Generali Arena** stadion: a hands-on workshop where you will build a team of autonomous AI agents, send them onto a virtual football pitch, and compete against other teams.\n\nStrategy, teamwork, rapid decisions and the pressure of match day are not just football concepts.\nThey are also the foundations of effective multi-agent systems. Build your squad, refine its tactics, deploy it to AWS, and see whether your agents have what it takes to lift the cup. This is a great opportunity to develop a better understanding of the agents on AWS via exciting football sessions!\n\nA huge thank you to **DoIT** for sponsoring and hosting this special event at the Generali Arena!\n\n***\n\n **Location**\nGenerali Arena\nHorrplatz 1, 1100 Wien\n\n **When**\n**Tuesday, 25 August 2026**\nDoors open at **16:00** for registration, food and networking.\nWorkshop starts at **16:30**.\n\n***\n\n## Agenda\n\n16:00 - 16:30: Entry, registration & team forming\n16:30 - 16:35: Welcome and introduction - AWS User Group Vienna\n16:35 - 16:40: Welcome from our sponsor, DoIT\n16:40 - 17:00: Kick-off: Agentic Football Cup Introduction & Workshop Setup\n17:00 - 17:40: Workshop - build and deploy your Agentic Football Team\n17:40 - 18:40: Fine tune your agents & Practice Matches\n18:40 - 19:25: Tournament\n19:25 - 20:00: Winners Ceremony, networking, food & drinks\n\n***\n\n## Agentic Football Cup\n\nThe [Agentic Football Cup](https://www.linkedin.com/posts/pjphorn_im-really-pleased-to-announce-that-the-aws-activity-7465345891458011136-MQ9u) is a free, hands-on AWS workshop where you build a five-agent football team, deploy it on AWS, and watch it compete in live 5v5 matches. Each agent receives the live game state, makes an independent decision, and acts on the pitch alongside its teammates.\n\nBehind the football theme are real-world patterns for building agentic applications: multi-agent orchestration, structured outputs, tool use, latency management, observability and repeatable evaluation. The agents run on Amazon Bedrock AgentCore and use foundation models to decide their [next moves during the game](https://www.linkedin.com/posts/pjphorn_im-really-pleased-to-announce-that-the-aws-activity-7465345891458011136-MQ9u).\n\n## What to expect\n\n* Build a team of autonomous AI football agents\n* Define tactics, team roles and agent behavior\n* Learn how multi-agent systems coordinate in a fast-moving environment\n* Deploy and iterate on AWS\n* Watch your team compete live against other participants\n* Meet fellow cloud and AI builders from the Vienna community\n\nNo football or AI experience is required - just curiosity, a laptop and the desire to build something that competes.\n\n***\n\n **Sponsor & Host**\n\n**DoIT** - thank you for supporting the AWS community and making this event possible at the Generali Arena.\n\n***\n\n **RSVP now** and invite your colleagues to experience the 2026 football season from a different perspective: not from the stands, but from the AI touchline.\nBy RSVPing, you confirm that you agree to our [Code of Conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf).\nBy submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required.",
+  "talks": [
+    {
+      "title": "Workshop - build and deploy your Agentic Football Team",
+      "speakers": []
+    },
+    {
+      "title": "Fine tune your agents & Practice Matches",
+      "speakers": []
+    },
+    {
+      "title": "Tournament",
+      "speakers": []
+    }
+  ],
+  "stream": true
+}

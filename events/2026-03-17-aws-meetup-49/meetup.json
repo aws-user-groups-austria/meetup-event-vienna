@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "2026-03-17-aws-meetup-49",
+  "title": "AWS Meetup #49 - AWS Community GameDay Europe 2026",
+  "number": 49,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/313466708/",
+  "start": "2026-03-17T17:00:00+01:00",
+  "end": "2026-03-17T22:00:00+01:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "Raiffeisen Informatik GmbH & Co KG",
+    "address": "Hollandstraße 11+13"
+  },
+  "hosts": [
+    {
+      "name": "Raiffeisen Informatik"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/b/6/4/7/highres_532846663.jpeg",
+  "summary": "AWS Community GameDay Europe is coming to Vienna! We will join \\~56 User Groups across Europe for a unique event: an international, synchronized AWS Community GameDay, powered by the European AWS community.",
+  "description": "Welcome to our next **on site** meetup!\n\n**AWS Community GameDay Europe is coming to Vienna!**\nWe will join \\~56 User Groups across Europe for a unique event: an international, synchronized AWS Community GameDay, powered by the European AWS community.\n\nJoin us for an intense evening combining learning, collaboration, and competition - get hands-on with AI, security and cloud-native challenges - no slides, no tutorials.\n\nThis large-scale, synchronized event is a unique opportunity to test your AWS skills in a fun, engaging, and hands-on environment.\nCome with a friend, a team, or solo - we'll form teams of 2 to 4 people on site.\n\n**What is an AWS GameDay?** A gamified learning event where participants are challenged to use AWS solutions to solve real-world technical problems as a team. Unlike traditional workshops, GameDays are open-ended and non-prescriptive, giving participants the freedom to explore and think outside the box.\n\n** Practical information**\n\n* Teams: 2 to 4 players - come with your team or we'll form one on site\n* Equipment: Your trusty laptop (internet connection provided)\n* Food & drinks: Snacks, beverages, and pizza\n* AWS account: Provided on site, no personal account required\n* Game duration: Around 2 hours of competition between local and international teams\n* Timing: This is a synchronized international event connected via a shared live stream across all participating locations. To ensure a smooth experience, the GameDay will start on time.\n\n** Who is this for?** The event is open to anyone with a general knowledge of AWS - no expert level required!\n\n** Agenda**\n\n* 17:00 - 17:30: Arrival & Doors Open\n\n* 17:30 - 18:00: Team formation\n* 18:00 - 18:20: GameDay introduction on the stream\n* 18:20 - 20:30: Game play\n* 20:30 - 20:45: European closing ceremony - prizes for the top teams\n* 20:45: Local closing - Open End\n\nCheck all participating User Groups here: [https://www.awsgameday.eu/](https://www.awsgameday.eu/)\n\n** Join the community** Follow us on LinkedIn: [https://www.linkedin.com/company/aws-user-group-vienna/](https://www.linkedin.com/company/aws-user-group-vienna/)\n\n** Sponsorship** We're thrilled to be hosted and sponsored by **[Raiffeisen Informatik GmbH & Co KG](https://www.raiffeiseninformatik.at/)**\n\n** Photo & video recordings** Photos and recordings taken during the event may be used for future promotional purposes.\nWe look forward to seeing many of you there!\n\n*Your AWS Community Vienna team*\nLinda, Philipp, Roman, Jakob and Dmytro\n\n***\n\n**With your RSVP you confirm, that you agree to our [code of conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf)**",
+  "talks": [
+    {
+      "title": "Game play",
+      "speakers": []
+    }
+  ],
+  "stream": true
+}

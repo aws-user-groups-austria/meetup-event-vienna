@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "2026-04-22-aws-meetup-50",
+  "title": "AWS Meetup #50 - hosted by Bytesource",
+  "number": 50,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/314152267/",
+  "start": "2026-04-22T17:00:00+02:00",
+  "end": "2026-04-22T21:00:00+02:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "The Atelier",
+    "address": "Impact Hub Vienna, Lindengasse 56, 1070 Wien"
+  },
+  "hosts": [
+    {
+      "name": "Bytesource"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/1/4/8/a/highres_533585258.jpeg",
+  "summary": "After \"winter is coming\" we finally can say \"spring is coming\" to Vienna!",
+  "description": "After **\"winter is coming\"** we finally can say **\"spring is coming\"** to Vienna!\n\nAs we had the AWSome GameDay Europe in March, we're now coming back to our **regular agenda**!\n\nWe're visiting The Atelier at **Impact Hub Vienna** this time, thankfully to the sponsor **Bytesource**!\n\n***\n\n **Location**\nThe Atelier\nImpact Hub Vienna\n[Lindengasse 56, 1070 Wien](https://www.google.com/maps/place//data=!4m2!3m1!1s0x476d078cbc5cf79b:0x3e9197850789a772?sa=X&ved=1t:8290&ictx=111)\n\n **When**\n**April 22th 2026**\nDoors open at 17:00 for networking, food & drinks.\nTalks start at 18:00.\n\n***\n\n **Agenda**\n\n* **17:00 - 18:00:** Entry & Networking\n* **18:00 - 18:05:** Welcome and Introduction AWS Community Vienna\n* **18:05 - 18:10:** Welcome and Introduction to the sponsors (**Bytesource**)\n* **18:10 - 19:00:** **\"Sales Copilot: Turn complex technical inquiries into clear, accurate offers in minutes, not hours!\"**\n* **19:00 - 19:20:** Networking break\n* **19:20 - 20:00:** **\"Beyond Vibe Coding\"**\n* **20:00 - Open End:** Networking\n\n**\"Sales Copilot: Turn complex technical inquiries into clear, accurate offers in minutes, not hours!\"**\n\n*Speaker:* **Alexander Matev**, CISO at Bytesource\n\n*About the talk:*\nSales CoPilot as a solution that helps teams turn complex technical customer inquiries into clear, accurate quotations much faster, reducing turnaround from hours to minutes.\n\nThe business problem: technical sales requests are slow, difficult, and error-prone when handled manually.\n\nThe Solution: Our Sales CoPilot interprets complex requirements, works with documentation and technical data, and supports offer preparation.\n\nTechnology foundation: strong emphasis on AWS as the enabler, plus AI/LLM-driven processing.\nArchitecture choice: a set of core AWS services to deliver both the user-facing application and the AI-powered data processing pipeline. Amazon S3 stores uploaded product datasheets and hosts the frontend assets, while Amazon CloudFront accelerates and securely delivers the web interface to users.\nIncoming application traffic is routed through an Application Load Balancer (ALB) to containerized services running on Amazon ECS, which handle both backend business logic and document ingestion tasks.\nFor AI capabilities, Amazon Bedrock is used in two places: to extract and transform structured information from PDF datasheets, and to power the agentic logic behind the application.\nPersistent structured data is stored in Amazon Aurora PostgreSQL, which supports read/write operations from the backend.\nTogether, these AWS services provide a scalable, cloud-native architecture for hosting, processing, AI enrichment, and application delivery.\n\n###\n\n**\"Beyond Vibe Coding\"**\n\n*Speaker:* **Sergio Lopez-Gehler**, Solutions Architect @ AWS\n\nAI agents are changing how engineers write, test, and ship code. This talk explores what agentic coding looks like in practice - the workflow, the tradeoffs, and the tools that make it work.\n\nWe'll cover how to collaborate effectively with AI agents: prompting, reviewing, iterating, and knowing when to take over. We'll look at what changes when development gets significantly faster - testing strategies, CI/CD pipelines, and team coordination all need to keep up. Then we'll introduce Kiro, an agentic IDE that uses spec-driven development, steering rules, and hooks to let engineers define how the agent operates within their codebase. We'll also look at AWS DevOps Agent - an autonomous operations teammate that correlates metrics, logs, and deployment history to investigate incidents and identify root causes before you even open your laptop.\n\n***\n\n **Sponsors:**\n\n* **Bytesource** - [https://bytesource.net/de/](https://bytesource.net/de/)\n\n***\n\n **RSVP now** and invite your colleagues to celebrate, learn, and connect with the AWS community at **Impact Hub Vienna**!\n\nBy RSVPing, you confirm that you agree to our [Code of Conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf).\n**By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required.**",
+  "talks": [
+    {
+      "title": "Sales Copilot: Turn complex technical inquiries into clear, accurate offers in minutes, not hours!",
+      "speakers": [
+        {
+          "name": "Alexander Matev",
+          "role": "CISO",
+          "company": "Bytesource"
+        }
+      ]
+    },
+    {
+      "title": "Beyond Vibe Coding",
+      "speakers": [
+        {
+          "name": "Sergio Lopez-Gehler",
+          "role": "Solutions Architect",
+          "company": "AWS"
+        }
+      ]
+    }
+  ],
+  "stream": true
+}

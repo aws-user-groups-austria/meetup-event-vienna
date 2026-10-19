@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "id": "2026-09-28-aws-meetup-vienna-52",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/316357405/",
+    "fetchedAt": "2026-10-19T19:16:27.413Z"
+  },
+  "title": "AWS Meetup Vienna #52 - hosted by Enspired",
+  "tagline": "Autumn is arriving in Vienna - and so is our next AWS meetup!",
+  "image": "https://secure.meetupstatic.com/photos/event/3/5/2/7/highres_535933607.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2026-09-28T17:00:00+02:00",
+  "end": "2026-09-28T21:00:00+02:00",
+  "venue": {
+    "name": "Enspired GmbH",
+    "address": "enspired GmbH Wagenseilgasse 3/4, 1120 Wien"
+  },
+  "sponsors": [
+    {
+      "name": "enspired GmbH",
+      "logo": "logos/enspired.png"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2026-09-28T17:00:00+02:00",
+      "end": "2026-09-28T18:00:00+02:00",
+      "title": "Entry & Networking"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2026-09-28T18:00:00+02:00",
+      "end": "2026-09-28T18:05:00+02:00",
+      "title": "Welcome and Introduction AWS Community Vienna"
+    },
+    {
+      "id": "sponsor",
+      "kind": "sponsor",
+      "start": "2026-09-28T18:05:00+02:00",
+      "end": "2026-09-28T18:10:00+02:00",
+      "title": "Welcome and Introduction to the sponsors (enspired)",
+      "sponsor": {
+        "name": "enspired GmbH",
+        "logo": "logos/enspired.png"
+      }
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2026-09-28T18:10:00+02:00",
+      "end": "2026-09-28T18:50:00+02:00",
+      "title": "The Terraform Trust Gap: Engineering the Space Between Prompts and Production",
+      "talk": {
+        "title": "The Terraform Trust Gap: Engineering the Space Between Prompts and Production",
+        "abstract": "Agents can already write Terraform. That was never the hard part. The hard part is that the context going in is stale and the apply coming out is too easy to hand over, so you get code that looks right, passes your linters, even terraform plan passed, but still it quietly does the wrong thing in production. This talk runs one module everyone knows, terraform-aws-modules/s3-bucket, through the whole chain live. First I give the agent a real contract instead of a README and watch the hallucinated config disappear. Then I take one of the module's own examples and turn it into a fixture that fails the moment it drifts from the module. Then I let the agent plan changes but not apply them. A human has to approve the plan first, and apply only runs on the approved one. On stage the agent tries to apply by itself and you watch it get blocked. You leave with three things to do on Monday, every pattern working with open tooling, and an honest feedback of where the chain still breaks. No vendor account, no prompt magic.",
+        "speakers": [
+          {
+            "name": "Anton Babenko",
+            "role": "AWS Community Hero / Terraform influencer / compliance.tf",
+            "photo": "https://cdn.sessionize.com/image/c485-200o200o2-MDhyUfHwzH2pvNZpk3rbWH.png",
+            "bio": "Anton is an AWS Community Hero and helps companies around the globe build solutions using AWS, specializing in infrastructure-as-code, DevOps, and reusable infrastructure components.\n\nHe spends much of his time as an open-source contributor on various Terraform and AWS projects: Terraform AWS modules (downloaded more than 2 billion times), the Terraform best practices ebook (www.terraform-best-practices.com), serverless with Terraform (serverless.tf), Terraform Weekly (weekly.tf), and Your Weekly Dose of Terraform (http://bit.ly/terraform-youtube). He runs compliance.tf, which delivers compliance-ready Terraform AWS modules, and maintains terraform-skill (1.8K stars on GitHub), an open agent skill for writing and reviewing Terraform safely."
+          }
+        ]
+      }
+    },
+    {
+      "id": "break-1",
+      "kind": "break",
+      "start": "2026-09-28T18:50:00+02:00",
+      "end": "2026-09-28T19:20:00+02:00",
+      "title": "Networking break"
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2026-09-28T19:20:00+02:00",
+      "end": "2026-09-28T20:00:00+02:00",
+      "title": "enspired by CDK",
+      "talk": {
+        "title": "enspired by CDK",
+        "abstract": "Discover how we evolved our Infrastructure as Code journey with AWS CDK - from fast early implementations to standardised, reusable, production-ready patterns and secure, universal deployments. We will share the decisions, best practices, lessons learned, and hard-earned insights that helped us understand not only how to use CDK effectively, but also when not to use it.",
+        "speakers": [
+          {
+            "name": "Andreas Werschlan",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/andreas-werschlan-08b4462b0/"
+              }
+            ]
+          },
+          {
+            "name": "Michal Sedlak",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michal-sedlak-137105183/"
+              }
+            ]
+          },
+          {
+            "name": "Orlin Filev"
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2026-09-28T20:00:00+02:00",
+      "end": "2026-09-28T21:00:00+02:00",
+      "title": "Networking"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/316357405/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/316357405/"
+  },
+  "notices": [
+    "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
+  ],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

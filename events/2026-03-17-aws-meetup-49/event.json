@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "id": "2026-03-17-aws-meetup-49",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/313466708/",
+    "fetchedAt": "2026-10-19T19:16:27.449Z"
+  },
+  "title": "AWS Meetup #49 - AWS Community GameDay Europe 2026",
+  "tagline": "Welcome to our next on site meetup!",
+  "image": "https://secure.meetupstatic.com/photos/event/b/6/4/7/highres_532846663.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2026-03-17T17:00:00+01:00",
+  "end": "2026-03-17T22:00:00+01:00",
+  "venue": {
+    "name": "Raiffeisen Informatik GmbH & Co KG",
+    "address": "Hollandstraße 11+13"
+  },
+  "sponsors": [
+    {
+      "name": "Raiffeisen Informatik",
+      "logo": "logos/raiffeisen-informatik.svg"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2026-03-17T17:00:00+01:00",
+      "end": "2026-03-17T17:30:00+01:00",
+      "title": "Arrival & Doors Open"
+    },
+    {
+      "id": "networking-2",
+      "kind": "networking",
+      "start": "2026-03-17T17:30:00+01:00",
+      "end": "2026-03-17T18:00:00+01:00",
+      "title": "Team formation"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2026-03-17T18:00:00+01:00",
+      "end": "2026-03-17T18:20:00+01:00",
+      "title": "GameDay introduction on the stream"
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2026-03-17T18:20:00+01:00",
+      "end": "2026-03-17T20:30:00+01:00",
+      "title": "Game play",
+      "talk": {
+        "title": "Game play",
+        "speakers": []
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2026-03-17T20:30:00+01:00",
+      "end": "2026-03-17T20:45:00+01:00",
+      "title": "European closing ceremony - prizes for the top teams"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/313466708/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/313466708/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [
+    "Photo & video recordings Photos and recordings taken during the event may be used for future promotional purposes."
+  ],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}

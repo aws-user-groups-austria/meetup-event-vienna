@@ -1,0 +1,14 @@
+{
+  "bio": "Mladen Trampic is a Senior Technical Account Manager for AWS Enterprise Support EMEA in Vienna, where he helps customers architect for reliability and cost efficiency. Before AWS he was a Data Lake Solution Architect at Raiffeisen Bank International. He has co-authored AWS blog posts on Session Manager logging guardrails in a multi-account environment and on how Flo Health optimized Amazon DynamoDB, and he writes about Kiro CLI, MCP and AI-assisted development on his blog.",
+  "links": [
+    { "title": "LinkedIn", "url": "https://www.linkedin.com/in/trampic/" },
+    { "title": "Blog", "url": "https://mladen.trampic.info/" },
+    { "title": "GitHub", "url": "https://github.com/mtrampic" }
+  ],
+  "sources": [
+    "https://www.linkedin.com/in/trampic/",
+    "https://aws.amazon.com/blogs/mt/implementing-aws-session-manager-logging-guardrails-in-a-multi-account-environment/ (author bio)",
+    "https://aws.amazon.com/blogs/database/scaling-to-70m-users-how-flo-health-optimized-amazon-dynamodb-for-cost-and-performance/",
+    "https://github.com/mtrampic/meetup-aws-user-group-vienna (role at Meetup #15, 2019)"
+  ]
+}

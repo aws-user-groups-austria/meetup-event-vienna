@@ -1,0 +1,10 @@
+{
+  "bio": "Roman Jokel is a Cloud Architect at Raiffeisen Bank International (RBI) in Vienna, where he works on the bank's AWS cloud foundation, including automating landing zone operations with AWS Step Functions in RBI's Cloud Center of Excellence. He has presented RBI's cloud work at AWS Summit Zurich 2024 and AWS Summit Hamburg 2025, holds the AWS Solutions Architect - Professional, Advanced Networking - Specialty and Security - Specialty certifications, and is a co-organizer of the AWS User Group Vienna.",
+  "links": [
+    { "title": "LinkedIn", "url": "https://www.linkedin.com/in/roman-jokel/" }
+  ],
+  "sources": [
+    "https://www.linkedin.com/in/roman-jokel/ (headline, certifications, posts about the Summit talks)",
+    "https://www.meetup.com/amazon-web-services-aws-vienna/events/314914273/ (Meetup #51 talk abstract)"
+  ]
+}

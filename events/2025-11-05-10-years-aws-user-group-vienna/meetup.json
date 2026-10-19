@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "2025-11-05-10-years-aws-user-group-vienna",
+  "title": "10 Years AWS User Group Vienna - hosted by ByteSource",
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/311535778/",
+  "start": "2025-11-05T17:00:00+01:00",
+  "end": "2025-11-05T19:00:00+01:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "ÖBB Open Innovation Factory",
+    "address": "Lassallestraße 5, Foyer 1, 1020 Wien"
+  },
+  "hosts": [
+    {
+      "name": "ByteSource"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/8/c/a/d/highres_530736013.jpeg",
+  "summary": "Celebrate 10 Years of Cloud Innovation in Vienna!",
+  "description": "**Celebrate 10 Years of Cloud Innovation in Vienna!**\n\nJoin us for a **special AWS User Group Vienna Meetup** celebrating a decade of cloud innovation and community building!\n\n **Location**\nÖBB Open Innovation Factory\nLassallestraße 5, Foyer 1\n1020 Wien\n\n **When**\n**Wednesday, November 5th, 2025**\nDoors open at **17:00** for networking, food & drinks.\nTalks start at **18:00**.\n\n** Event Highlights**\n\n* Meet the **AWS Heroes of Austria**, including **Nana Janashia** from *TechWorld with Nana*\n* Connect with **AWS Community Builders** from Vienna and across Austria\n* Celebrate **outstanding community members** with special awards\n* Network with fellow **cloud enthusiasts and builders**\n\n** Agenda**\n**17:00 - 18:00**: Entry & Networking\n**18:00 - 18:05**: Welcome and Introduction AWS Community Vienna\n**18:05 - 18:15**: Welcome and Introduction to the sponsors\n**18:15 - 18:30**: Past 10 Years in DevOps - Nana Janashia\n**18:30 - 18:45**: Networking Break\n**18:45 - 19:15**: Elevating Event Photography Workflow with AWS - Case Study from AWS Community Day DACH - Dmytro Hlotenko\n**19:15 - 19:20**: Intro to the Community Builder Program - Dmytro Hlotenko\n**19:20 - 19:35**: AWS Community DACH Overview and How to Contribute - Linda Mohamed\n**19:35 - 20:00**: Networking Break\n**20:00 - 20:05**: Sebastian Eckler, AWS\n**20:05 - 20:30**: AWS User Group Vienna Recap\n**20:30 - 21:00**: Awards Ceremony\n**21:00 - Open End**: Networking\n\n***\n\nDon’t miss this milestone event - **RSVP now** and invite your colleagues to celebrate, learn, and connect with the AWS community!\nBy RSVPing, you confirm that you agree to our **[Code of Conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf)**.\n\n***\n\n** Sponsored by:** ByteSource",
+  "talks": [],
+  "stream": false
+}

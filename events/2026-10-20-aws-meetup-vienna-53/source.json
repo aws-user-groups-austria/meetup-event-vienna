@@ -1,0 +1,31 @@
+{
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/316893745/",
+  "sessionize": "3epsgjj2",
+  "overrides": {
+    "links": {
+      "nextEvents": "https://awscommunity.at/"
+    },
+    "sponsors": [
+      { "name": "Raiffeisen Bank International AG", "logo": "events/2026-10-20-aws-meetup-vienna-53/assets/rbi.svg" }
+    ],
+    "segments": [
+      {
+        "id": "talk-1",
+        "talk": {
+          "speakers": [
+            { "name": "Roman Jokel", "photo": "events/2026-10-20-aws-meetup-vienna-53/assets/roman-jokel.png" },
+            { "name": "Mladen Trampic", "photo": "events/2026-10-20-aws-meetup-vienna-53/assets/mladen-trampic.png" }
+          ]
+        }
+      },
+      {
+        "id": "talk-2",
+        "talk": {
+          "speakers": [
+            { "name": "Darko Mesaroš", "photo": "events/2026-10-20-aws-meetup-vienna-53/assets/darko-mesaros.png" }
+          ]
+        }
+      }
+    ]
+  }
+}
