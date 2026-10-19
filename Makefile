@@ -31,7 +31,7 @@ EVENT_DIR  = events/$(EVENT)
 EVENT_SLUG = $(shell printf '%s' '$(EVENT)' | sed -E 's/^[0-9]{4}-[0-9]{2}-[0-9]{2}-//')
 HTML      ?= $(firstword $(wildcard $(EVENT_DIR)/page.html) $(wildcard $(FIXTURES)/$(EVENT_SLUG).html))
 
-.PHONY: help sync sync-offline sync-all-offline new check-event deck archive review deck-pdf
+.PHONY: help sync sync-offline sync-all-offline new check-event deck archive update review deck-pdf
 
 help:
 	@sed -n 's/^#   //p' Makefile
@@ -86,6 +86,11 @@ deck: check-event
 	if [ -f "$$header" ]; then set -- --header "$$header"; else set --; fi; \
 	if [ -d "$(EVENT_DIR)/canva" ]; then set -- "$$@" --canva "$(EVENT_DIR)/canva"; fi; \
 	uv run --project $(DECK_DIR) meetup-deck --template "$(TEMPLATE)" --event "$(EVENT_DIR)/event.json" --stills "$(TEMPLATES_DIR)/out/stills" "$$@" --out "$(EVENT_DIR)/deck/$(EVENT).pptx"
+
+# Everything from Meetup and Sessionize: the past meetups (archive) and each coming one (sync, or new
+# for a meetup announced since). What the scheduled job runs every Monday and Friday.
+update: $(SYNC_DIR)/node_modules
+	node tools/update.mjs
 
 archive: $(SYNC_DIR)/node_modules
 	$(SYNC) archive "$(PAST_EVENTS)" --events-dir events $(LOGOS_ARG) --sessionize "$(SESSIONIZE)" $(if $(REFRESH),--refresh)

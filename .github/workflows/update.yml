@@ -1,0 +1,63 @@
+name: Update meetups
+
+# Every Monday and Friday: the past and coming meetups from Meetup and
+# Sessionize (make update), committed when something changed. The website's
+# "Update meetup pages" job picks this up an hour later.
+#
+# Not here: the slide decks. The deck template holds the organizers'
+# contacts and stays out of git, and the PDF comes from PowerPoint, so
+# `make deck EVENT=<id>` runs on an organizer's laptop.
+
+on:
+  schedule:
+    - cron: "30 5 * * 1,5"   # Monday and Friday, 05:30 UTC (06:30 or 07:30 in Vienna)
+  workflow_dispatch:           # run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-meetups
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the events
+        uses: actions/checkout@v4
+        with:
+          path: meetup-event-vienna
+
+      - name: Checkout meetup-sync
+        uses: actions/checkout@v4
+        with:
+          repository: aws-user-groups-austria/meetup-sync
+          path: meetup-sync
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install meetup-sync
+        run: npm ci --prefix meetup-sync
+
+      - name: Update from Meetup and Sessionize
+        working-directory: meetup-event-vienna
+        run: make update
+
+      - name: Commit what changed
+        if: always()
+        working-directory: meetup-event-vienna
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events
+          if git diff --cached --quiet; then
+            echo "No change in the meetups"
+          else
+            git commit -m "chore: update meetups from Meetup and Sessionize"
+            git pull --rebase --quiet
+            git push
+          fi
