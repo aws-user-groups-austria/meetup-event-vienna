@@ -3,7 +3,7 @@
   "id": "2026-10-20-aws-meetup-vienna-53",
   "source": {
     "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/316893745/",
-    "fetchedAt": "2026-10-19T20:27:32.138Z"
+    "fetchedAt": "2026-10-23T10:24:38.868Z"
   },
   "title": "AWS Meetup Vienna #53 - hosted by RBI",
   "tagline": "Autumn is arriving in Vienna - and so is our next AWS meetup!",
@@ -151,29 +151,6 @@
   },
   "notices": [
     "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
-  ],
-  "upcoming": [
-    {
-      "name": "AWS Community Day Adria",
-      "date": "2026-10-22",
-      "location": "Ljubljana, Slovenia",
-      "url": "https://awscommunityadria.com/",
-      "speakers": [
-        {
-          "name": "Linda Mohamed",
-          "photo": "people/linda-mohamed.png"
-        },
-        {
-          "name": "Dmytro Hlotenko",
-          "photo": "people/dmytro-hlotenko.png"
-        },
-        {
-          "name": "Darko Mesaroš",
-          "photo": "people/darko-mesaros.png"
-        }
-      ],
-      "screenshot": "community/communityday-adria.jpg"
-    }
   ],
   "community": {
     "name": "AWS User Group Vienna",
