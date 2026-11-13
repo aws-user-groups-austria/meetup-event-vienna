@@ -1,0 +1,37 @@
+name: Consent check
+
+# Every photo and logo needs an entry in consent.json before it is merged.
+# The rule is in CONSENT.md; this job is what keeps it from being forgotten.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Nothing is granted at workflow level. The job only reads the repository.
+permissions: {}
+
+concurrency:
+  group: consent-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  consent:
+    name: Photos and logos have a recorded basis
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+
+      - name: Check consent.json against the files
+        run: node tools/check-consent.mjs
