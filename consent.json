@@ -1,0 +1,138 @@
+{
+  "about": "Where the agreement for each photo and logo comes from. The rule and the bases are in CONSENT.md; `make consent` checks this file.",
+  "started": "2026-11-13",
+  "files": {
+    "badges/all-timer.png": {
+      "basis": "before-ledger"
+    },
+    "badges/first-timer.png": {
+      "basis": "before-ledger"
+    },
+    "badges/host.png": {
+      "basis": "before-ledger"
+    },
+    "badges/leader.png": {
+      "basis": "before-ledger"
+    },
+    "badges/speaker.png": {
+      "basis": "before-ledger"
+    },
+    "community/communityday-adria.jpg": {
+      "basis": "before-ledger"
+    },
+    "community/communityday-malta.jpg": {
+      "basis": "before-ledger"
+    },
+    "community/meetup-photos.png": {
+      "basis": "before-ledger"
+    },
+    "events/2026-10-20-aws-meetup-vienna-53/assets/darko-mesaros.png": {
+      "basis": "before-ledger"
+    },
+    "events/2026-10-20-aws-meetup-vienna-53/assets/mladen-trampic.png": {
+      "basis": "before-ledger"
+    },
+    "events/2026-10-20-aws-meetup-vienna-53/assets/rbi.png": {
+      "basis": "before-ledger"
+    },
+    "events/2026-10-20-aws-meetup-vienna-53/assets/rbi.svg": {
+      "basis": "before-ledger"
+    },
+    "events/2026-10-20-aws-meetup-vienna-53/assets/roman-jokel.png": {
+      "basis": "before-ledger"
+    },
+    "logos/bytesource.png": {
+      "basis": "before-ledger"
+    },
+    "logos/bytesource.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/doit.png": {
+      "basis": "before-ledger"
+    },
+    "logos/enspired.png": {
+      "basis": "before-ledger"
+    },
+    "logos/eversports.png": {
+      "basis": "before-ledger"
+    },
+    "logos/eversports.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/labyrinth-labs.png": {
+      "basis": "before-ledger"
+    },
+    "logos/labyrinth-labs.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/raiffeisen-informatik.png": {
+      "basis": "before-ledger"
+    },
+    "logos/raiffeisen-informatik.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/rbi.png": {
+      "basis": "before-ledger"
+    },
+    "logos/rbi.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/squer.png": {
+      "basis": "before-ledger"
+    },
+    "logos/squer.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/tu-wien.png": {
+      "basis": "before-ledger"
+    },
+    "logos/tu-wien.svg": {
+      "basis": "before-ledger"
+    },
+    "logos/ug-linz.png": {
+      "basis": "before-ledger"
+    },
+    "logos/ug-vienna.png": {
+      "basis": "before-ledger"
+    },
+    "logos/wug-vienna.png": {
+      "basis": "before-ledger"
+    },
+    "people/darko-mesaros.png": {
+      "basis": "before-ledger"
+    },
+    "people/dmytro-hlotenko.png": {
+      "basis": "before-ledger"
+    },
+    "people/florian-ettinger.png": {
+      "basis": "before-ledger"
+    },
+    "people/gunnar-grosch.png": {
+      "basis": "before-ledger"
+    },
+    "people/jakob-heinisch.png": {
+      "basis": "before-ledger"
+    },
+    "people/linda-mohamed.png": {
+      "basis": "before-ledger"
+    },
+    "people/manuel-lindner.png": {
+      "basis": "before-ledger"
+    },
+    "people/matthias.png": {
+      "basis": "before-ledger"
+    },
+    "people/mladen-trampic.png": {
+      "basis": "before-ledger"
+    },
+    "people/philipp-bergsmann.png": {
+      "basis": "before-ledger"
+    },
+    "people/roman-jokel.png": {
+      "basis": "before-ledger"
+    },
+    "people/viktor-vedmich.png": {
+      "basis": "before-ledger"
+    }
+  }
+}

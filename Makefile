@@ -6,6 +6,7 @@
 #   make sync-all-offline                         sync-offline for every event that has a saved page
 #   make review EVENT=<id>                        one local page with the real stills, deck and website screenshots; opens it
 #   make deck-pdf EVENT=<id>                      the filled-in deck as PDF, through PowerPoint (macOS; opens it briefly)
+#   make consent                                  every photo and logo has an entry in consent.json (see CONSENT.md)
 #   make archive                                  every past meetup from the group's Meetup page: events/<id>/meetup.json (+ event.json where the agenda parses)
 #   make deck EVENT=<id>                          the group's slide deck filled in for this meetup: events/<id>/deck/<id>.pptx
 
@@ -31,7 +32,7 @@ EVENT_DIR  = events/$(EVENT)
 EVENT_SLUG = $(shell printf '%s' '$(EVENT)' | sed -E 's/^[0-9]{4}-[0-9]{2}-[0-9]{2}-//')
 HTML      ?= $(firstword $(wildcard $(EVENT_DIR)/page.html) $(wildcard $(FIXTURES)/$(EVENT_SLUG).html))
 
-.PHONY: help sync sync-offline sync-all-offline new check-event deck archive update review deck-pdf
+.PHONY: help sync sync-offline sync-all-offline new check-event deck archive update review deck-pdf consent
 
 help:
 	@sed -n 's/^#   //p' Makefile
@@ -116,3 +117,7 @@ deck-pdf: check-event
 	echo "wrote $(EVENT_DIR)/deck/$(EVENT).pdf" && \
 	sips -s format png --resampleWidth 1280 "$(EVENT_DIR)/deck/$(EVENT).pdf" --out "$(EVENT_DIR)/deck/$(EVENT)-cover.png" >/dev/null && \
 	echo "wrote $(EVENT_DIR)/deck/$(EVENT)-cover.png (the first slide, the deck's preview on the website)"
+
+# Every photo and logo has an entry in consent.json (see CONSENT.md)
+consent:
+	node tools/check-consent.mjs

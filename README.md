@@ -115,7 +115,9 @@ with the path the web player sees, `events/<id>/assets/<file>`:
 in the website copy `events/<id>/assets/` next to the player as
 `events/<id>/assets/`, so the same path works in the dev player, in the
 stills (`make stills` there) and on `/present/`. A full `https://` URL works as
-well and needs no copy. Only add a photo or logo once its owner has agreed.
+well and needs no copy. Only add a photo or logo once its owner has agreed,
+and add its entry to `consent.json`: `make consent` and the check on every pull
+request fail without one. The rule is in [CONSENT.md](CONSENT.md).
 
 ## The slide deck
 
@@ -211,3 +213,14 @@ make help
 If the generated file does not match the schema (for example a typo in an
 override), meetup-sync prints the issues, exits non-zero, and leaves the old
 `event.json` in place.
+
+## Licence
+
+[CC BY-NC-SA 4.0](LICENSE): free for volunteer-run user groups and other
+non-commercial communities to use and adapt, with attribution and under the same
+licence. Not for commercial use without written permission.
+
+The licence covers the layout of this repository, the tools and the Makefile.
+It does not cover the people and companies in it: photos, names, biographies,
+talk abstracts and logos are used with their owners' agreement for our meetups
+only. See [CONSENT.md](CONSENT.md).
