@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "2026-11-26-aws-meetup-vienna-54",
+  "title": "AWS Meetup Vienna #54 - hosted by Erste Digital",
+  "number": 54,
+  "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
+  "start": "2026-11-26T17:00:00+01:00",
+  "end": "2026-11-26T21:00:00+01:00",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "venue": {
+    "name": "Zeta Bite room",
+    "address": "Canettistraße 5, 1100 Wien"
+  },
+  "hosts": [
+    {
+      "name": "Erste Digital"
+    }
+  ],
+  "image": "https://secure.meetupstatic.com/photos/event/4/3/a/4/highres_537197316.jpeg",
+  "summary": "November brings us to Erste Digital for another AWS Meetup in Vienna!",
+  "description": "November brings us to Erste Digital for another AWS Meetup in Vienna!\n\nThis time, we’ll look at building and operating reliable AWS environments in the age of AI abundance.\n\nFirst, we’ll explore how to make intentional tooling choices when anyone - and every AI agent - can create a new tool in an afternoon. Which tools are worth building, maintaining, and standardising?\n\nWe’ll also dive into how Amazon and AWS design resilient services at scale. Through examples from Thursday Night Football, Prime Video, Amazon Music, and Route 53, we’ll examine practical approaches to operational readiness, deployment safeguards, customer isolation, and testing recovery before incidents happen.\n\nA big thank you to [Erste Digital](https://www.erstedigital.com) for supporting the community and making the meetup possible!\n\n***\n\n **Location**\nZeta Bite room\nCanettistraße 5, 1100 Wien\n\n **When**\n**November 26nd 2026**\nDoors open at 17:00 for networking, food & drinks.\nTalks start at 18:00.\n\n***\n\n **Agenda**\n\n* **17:00 - 18:00:** Entry & Networking\n* **18:00 - 18:05:** Welcome and Introduction AWS Community Vienna\n* **18:05 - 18:10:** Welcome and Introduction to the sponsors (**Erste Digital**)\n* **18:10 - 18:50:** **\"AWS Tooling in the age of AI abundance\"**\n* **18:50 - 19:20:** Networking break\n* **19:20 - 20:00:** **\"How Amazon and AWS Build Resilient Services\"**\n* **20:00 - Open End:** Networking\n\n**\"AWS Tooling in the age of AI abundance\"**\n*Speaker:*\n**[Florian Motlik](https://www.linkedin.com/in/florianmotlik/)** is an independent AWS cloud consultant and co-founder of [attendit.at](https://attendit.at), with more than 15 years of hands-on cloud experience.\n\n*About the talk:*\nAnyone can build a tool in an afternoon now, and so can your AI. The result is tool sprawl: custom tools nobody maintains and agents writing throwaway scripts every session. Which tools are still worth building, which ones are worth continuing to support when AI does the work on AWS, and where should they live?\n\n**\"How Amazon and AWS Build Resilient Services\"**\n*Speaker:*\n**[Tom Reichenbach](https://www.linkedin.com/in/treichenbach/)**[ ](https://www.linkedin.com/in/treichenbach/)\\- Senior Solutions Architect at AWS with 15\\+ years of experience architecting scalable cloud solutions across industry\\, banking\\, and financial sectors\\.\n\n*About the talk:*\nThis session examines how Amazon and AWS keep services available when dependencies fail or demand spikes. Thursday Night Football shows how teams use operational readiness reviews and deployment safeguards to prepare for live events. Examples from Prime Video and Amazon Music illustrate how cell-based architectures limit the impact of failures, while Route 53 demonstrates customer isolation through shuffle sharding. Attendees will take away approaches they can apply to their own workloads to reduce customer impact and test recovery before an incident.\n\n **Sponsors:**\n\n* **[Erste Digital](https://www.erstedigital.com/)**\n\n***\n\n **RSVP now** and invite your colleagues to celebrate, learn, and connect with the AWS community!\n\nBy RSVPing, you confirm that you agree to our [Code of Conduct](http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf).\n**By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required.**",
+  "talks": [
+    {
+      "title": "AWS Tooling in the age of AI abundance",
+      "speakers": [
+        {
+          "name": "Florian Motlik",
+          "role": "is an independent AWS cloud consultant and co-founder of attendit.at",
+          "company": "with more than 15 years of hands-on cloud experience."
+        }
+      ]
+    },
+    {
+      "title": "How Amazon and AWS Build Resilient Services",
+      "speakers": [
+        {
+          "name": "Tom Reichenbach",
+          "role": "Senior Solutions Architect",
+          "company": "AWS with 15+ years of experience architecting scalable cloud solutions across industry, banking, and financial sectors."
+        }
+      ]
+    }
+  ],
+  "stream": true
+}

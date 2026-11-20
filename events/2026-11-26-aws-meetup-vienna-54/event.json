@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "id": "2026-11-26-aws-meetup-vienna-54",
+  "source": {
+    "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
+    "fetchedAt": "2026-11-20T14:16:03.653Z"
+  },
+  "title": "AWS Meetup Vienna #54 - hosted by Erste Digital",
+  "tagline": "November brings us to Erste Digital for another AWS Meetup in Vienna!",
+  "image": "https://secure.meetupstatic.com/photos/event/4/3/a/4/highres_537197316.jpeg",
+  "group": {
+    "id": "aws-ug-vienna",
+    "name": "AWS User Group Vienna",
+    "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+  },
+  "timezone": "Europe/Vienna",
+  "doorsOpen": "2026-11-26T17:00:00+01:00",
+  "end": "2026-11-26T21:00:00+01:00",
+  "venue": {
+    "name": "Zeta Bite room",
+    "address": "Canettistraße 5, 1100 Wien"
+  },
+  "sponsors": [
+    {
+      "name": "Erste Digital",
+      "url": "https://www.erstedigital.com/"
+    }
+  ],
+  "segments": [
+    {
+      "id": "doors",
+      "kind": "networking",
+      "start": "2026-11-26T17:00:00+01:00",
+      "end": "2026-11-26T18:00:00+01:00",
+      "title": "Entry & Networking"
+    },
+    {
+      "id": "welcome",
+      "kind": "welcome",
+      "start": "2026-11-26T18:00:00+01:00",
+      "end": "2026-11-26T18:05:00+01:00",
+      "title": "Welcome and Introduction AWS Community Vienna"
+    },
+    {
+      "id": "sponsor",
+      "kind": "sponsor",
+      "start": "2026-11-26T18:05:00+01:00",
+      "end": "2026-11-26T18:10:00+01:00",
+      "title": "Welcome and Introduction to the sponsors (Erste Digital)",
+      "sponsor": {
+        "name": "Erste Digital"
+      }
+    },
+    {
+      "id": "talk-1",
+      "kind": "talk",
+      "start": "2026-11-26T18:10:00+01:00",
+      "end": "2026-11-26T18:50:00+01:00",
+      "title": "AWS Tooling in the age of AI abundance",
+      "talk": {
+        "title": "AWS Tooling in the age of AI abundance",
+        "abstract": "Anyone can build a tool in an afternoon now, and so can your AI. The result is tool sprawl: custom tools nobody maintains and agents writing throwaway scripts every session. Which tools are still worth building, which ones are worth continuing to support when AI does the work on AWS, and where should they live?",
+        "speakers": [
+          {
+            "name": "Florian Motlik",
+            "role": "is an independent AWS cloud consultant and co-founder of attendit.at",
+            "company": "with more than 15 years of hands-on cloud experience.",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/florianmotlik/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "break-1",
+      "kind": "break",
+      "start": "2026-11-26T18:50:00+01:00",
+      "end": "2026-11-26T19:20:00+01:00",
+      "title": "Networking break"
+    },
+    {
+      "id": "talk-2",
+      "kind": "talk",
+      "start": "2026-11-26T19:20:00+01:00",
+      "end": "2026-11-26T20:00:00+01:00",
+      "title": "How Amazon and AWS Build Resilient Services",
+      "talk": {
+        "title": "How Amazon and AWS Build Resilient Services",
+        "abstract": "This session examines how Amazon and AWS keep services available when dependencies fail or demand spikes. Thursday Night Football shows how teams use operational readiness reviews and deployment safeguards to prepare for live events. Examples from Prime Video and Amazon Music illustrate how cell-based architectures limit the impact of failures, while Route 53 demonstrates customer isolation through shuffle sharding. Attendees will take away approaches they can apply to their own workloads to reduce customer impact and test recovery before an incident.\n\nSponsors:\n\nErste Digital",
+        "speakers": [
+          {
+            "name": "Tom Reichenbach",
+            "role": "Senior Solutions Architect",
+            "company": "AWS with 15+ years of experience architecting scalable cloud solutions across industry, banking, and financial sectors.",
+            "links": [
+              {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/treichenbach/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "kind": "closing",
+      "start": "2026-11-26T20:00:00+01:00",
+      "end": "2026-11-26T21:00:00+01:00",
+      "title": "Networking"
+    }
+  ],
+  "links": {
+    "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
+    "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+  },
+  "notices": [
+    "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
+  ],
+  "community": {
+    "name": "AWS User Group Vienna",
+    "team": [
+      {
+        "name": "Linda Mohamed",
+        "role": "AWS Hero · AWS Community DACH",
+        "photo": "people/linda-mohamed.png",
+        "email": "linda@awscommunity.at"
+      },
+      {
+        "name": "Philipp Bergsmann",
+        "role": "Open source contributor · UG Vienna veteran",
+        "photo": "people/philipp-bergsmann.png",
+        "email": "philipp@awscommunity.at"
+      },
+      {
+        "name": "Dmytro Hlotenko",
+        "role": "Photographer · AWS Community Day rep",
+        "photo": "people/dmytro-hlotenko.png",
+        "email": "dima@awscommunity.at"
+      },
+      {
+        "name": "Roman Jokel",
+        "role": "Cloud architect · AWS Summit speaker",
+        "photo": "people/roman-jokel.png",
+        "email": "roman@awscommunity.at"
+      },
+      {
+        "name": "Jakob Heinisch",
+        "role": "Organizational lead · UG Linz contact",
+        "photo": "people/jakob-heinisch.png",
+        "email": "jakob@awscommunity.at"
+      },
+      {
+        "name": "Matthias",
+        "role": "Quiz master · AWS PubQuiz Austria",
+        "photo": "people/matthias.png"
+      }
+    ],
+    "groups": [
+      {
+        "name": "AWS User Group Vienna",
+        "logo": "logos/ug-vienna.png",
+        "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+      },
+      {
+        "name": "AWS Women's User Group Vienna",
+        "logo": "logos/wug-vienna.png",
+        "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+      },
+      {
+        "name": "AWS User Group Linz",
+        "logo": "logos/ug-linz.png",
+        "url": "https://www.meetup.com/aws-user-group-linz/"
+      }
+    ],
+    "badges": [
+      {
+        "name": "Leader",
+        "image": "badges/leader.png",
+        "title": "Event Organizer",
+        "text": "Reach out for questions, suggestions, or if you feel unsafe."
+      },
+      {
+        "name": "Host",
+        "image": "badges/host.png",
+        "title": "Location & Food Sponsor",
+        "text": "Curious about what we do? Let's chat!"
+      },
+      {
+        "name": "Speaker",
+        "image": "badges/speaker.png",
+        "title": "Today's Speaker",
+        "text": "Curious about the topic? Let's discuss!"
+      },
+      {
+        "name": "First-Timer",
+        "image": "badges/first-timer.png",
+        "title": "New to the Meetup",
+        "text": "Introduce yourself, and let's connect!"
+      },
+      {
+        "name": "All-Timer",
+        "image": "badges/all-timer.png",
+        "title": "Regular Member",
+        "text": "Welcome back! Say hi to the new faces."
+      }
+    ],
+    "codeOfConduct": {
+      "title": "Growing Together",
+      "subtitle": "One Respectful Interaction at a Time",
+      "lines": [
+        "No matter your background or interests, you're part of the AWS family here.",
+        "\"But, it's just a joke!\": If you have to say it, it probably wasn't. Aim for laughs, not cringes.",
+        "If you encounter a red signal, our organizers are here to navigate."
+      ],
+      "url": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    },
+    "photos": [
+      "community/meetup-photos.png"
+    ],
+    "links": {
+      "website": "https://awscommunity.at/",
+      "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/",
+      "linkedin": "https://www.linkedin.com/company/aws-user-group-vienna"
+    }
+  }
+}
