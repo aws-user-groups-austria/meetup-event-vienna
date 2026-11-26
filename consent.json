@@ -41,6 +41,26 @@
     "events/2026-10-20-aws-meetup-vienna-53/assets/roman-jokel.png": {
       "basis": "before-ledger"
     },
+    "events/2026-11-26-aws-meetup-vienna-54/assets/erste-digital.png": {
+      "basis": "sponsor",
+      "note": "Meetup #54, host and food sponsor"
+    },
+    "events/2026-11-26-aws-meetup-vienna-54/assets/erste-digital.svg": {
+      "basis": "sponsor",
+      "note": "Meetup #54, host and food sponsor"
+    },
+    "events/2026-11-26-aws-meetup-vienna-54/assets/florian-motlik.png": {
+      "basis": "asked",
+      "by": "Linda",
+      "date": "2026-11-24",
+      "note": "speaker photo for Meetup #54: the announcement cards, the page, the room screen and the deck"
+    },
+    "events/2026-11-26-aws-meetup-vienna-54/assets/tom-reichenbach.png": {
+      "basis": "asked",
+      "by": "Linda",
+      "date": "2026-11-24",
+      "note": "speaker photo for Meetup #54: the announcement cards, the page, the room screen and the deck"
+    },
     "logos/bytesource.png": {
       "basis": "before-ledger"
     },
