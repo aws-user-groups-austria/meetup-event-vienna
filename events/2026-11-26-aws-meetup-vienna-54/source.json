@@ -1,4 +1,44 @@
 {
   "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
-  "overrides": {}
+  "overrides": {
+    "links": {
+      "nextEvents": "https://awscommunity.at/"
+    },
+    "sponsors": [
+      {
+        "name": "Erste Digital",
+        "url": "https://www.erstedigital.com/",
+        "logo": "events/2026-11-26-aws-meetup-vienna-54/assets/erste-digital.svg"
+      }
+    ],
+    "segments": [
+      {
+        "id": "talk-1",
+        "talk": {
+          "speakers": [
+            {
+              "name": "Florian Motlik",
+              "role": "Independent AWS Cloud Consultant",
+              "company": "Co-founder of attendit.at",
+              "photo": "events/2026-11-26-aws-meetup-vienna-54/assets/florian-motlik.png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "talk-2",
+        "talk": {
+          "abstract": "This session examines how Amazon and AWS keep services available when dependencies fail or demand spikes. Thursday Night Football shows how teams use operational readiness reviews and deployment safeguards to prepare for live events. Examples from Prime Video and Amazon Music illustrate how cell-based architectures limit the impact of failures, while Route 53 demonstrates customer isolation through shuffle sharding. Attendees will take away approaches they can apply to their own workloads to reduce customer impact and test recovery before an incident.",
+          "speakers": [
+            {
+              "name": "Tom Reichenbach",
+              "role": "Senior Solutions Architect",
+              "company": "AWS",
+              "photo": "events/2026-11-26-aws-meetup-vienna-54/assets/tom-reichenbach.png"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

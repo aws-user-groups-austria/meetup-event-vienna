@@ -3,7 +3,7 @@
   "id": "2026-11-26-aws-meetup-vienna-54",
   "source": {
     "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
-    "fetchedAt": "2026-11-20T14:16:03.653Z"
+    "fetchedAt": "2026-11-24T09:30:14.536Z"
   },
   "title": "AWS Meetup Vienna #54 - hosted by Erste Digital",
   "tagline": "November brings us to Erste Digital for another AWS Meetup in Vienna!",
@@ -23,6 +23,7 @@
   "sponsors": [
     {
       "name": "Erste Digital",
+      "logo": "events/2026-11-26-aws-meetup-vienna-54/assets/erste-digital.svg",
       "url": "https://www.erstedigital.com/"
     }
   ],
@@ -48,7 +49,8 @@
       "end": "2026-11-26T18:10:00+01:00",
       "title": "Welcome and Introduction to the sponsors (Erste Digital)",
       "sponsor": {
-        "name": "Erste Digital"
+        "name": "Erste Digital",
+        "logo": "events/2026-11-26-aws-meetup-vienna-54/assets/erste-digital.svg"
       }
     },
     {
@@ -63,8 +65,9 @@
         "speakers": [
           {
             "name": "Florian Motlik",
-            "role": "is an independent AWS cloud consultant and co-founder of attendit.at",
-            "company": "with more than 15 years of hands-on cloud experience.",
+            "role": "Independent AWS Cloud Consultant",
+            "company": "Co-founder of attendit.at",
+            "photo": "events/2026-11-26-aws-meetup-vienna-54/assets/florian-motlik.png",
             "links": [
               {
                 "title": "LinkedIn",
@@ -90,12 +93,13 @@
       "title": "How Amazon and AWS Build Resilient Services",
       "talk": {
         "title": "How Amazon and AWS Build Resilient Services",
-        "abstract": "This session examines how Amazon and AWS keep services available when dependencies fail or demand spikes. Thursday Night Football shows how teams use operational readiness reviews and deployment safeguards to prepare for live events. Examples from Prime Video and Amazon Music illustrate how cell-based architectures limit the impact of failures, while Route 53 demonstrates customer isolation through shuffle sharding. Attendees will take away approaches they can apply to their own workloads to reduce customer impact and test recovery before an incident.\n\nSponsors:\n\nErste Digital",
+        "abstract": "This session examines how Amazon and AWS keep services available when dependencies fail or demand spikes. Thursday Night Football shows how teams use operational readiness reviews and deployment safeguards to prepare for live events. Examples from Prime Video and Amazon Music illustrate how cell-based architectures limit the impact of failures, while Route 53 demonstrates customer isolation through shuffle sharding. Attendees will take away approaches they can apply to their own workloads to reduce customer impact and test recovery before an incident.",
         "speakers": [
           {
             "name": "Tom Reichenbach",
             "role": "Senior Solutions Architect",
-            "company": "AWS with 15+ years of experience architecting scalable cloud solutions across industry, banking, and financial sectors.",
+            "company": "AWS",
+            "photo": "events/2026-11-26-aws-meetup-vienna-54/assets/tom-reichenbach.png",
             "links": [
               {
                 "title": "LinkedIn",
@@ -117,7 +121,8 @@
   "links": {
     "meetup": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
     "feedback": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
-    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf"
+    "codeOfConduct": "http://aws-meetup-vie.s3-website.eu-central-1.amazonaws.com/AWS_Meetup_Vienna-Code_Of_Conduct.pdf",
+    "nextEvents": "https://awscommunity.at/"
   },
   "notices": [
     "By submitting your RSVP, you acknowledge that photos and videos may be taken during the event. If you prefer not to appear in such recordings, please let the organizer know before the event. Please note that we cannot guarantee the retrospective removal, blurring, or editing of individual attendees in group photos or event footage. Any publication of identifiable individual portraits will be subject to separate consent where required."
