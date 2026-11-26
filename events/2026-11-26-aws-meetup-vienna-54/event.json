@@ -3,7 +3,7 @@
   "id": "2026-11-26-aws-meetup-vienna-54",
   "source": {
     "meetupUrl": "https://www.meetup.com/amazon-web-services-aws-vienna/events/317483434/",
-    "fetchedAt": "2026-11-24T09:30:14.536Z"
+    "fetchedAt": "2026-11-26T13:23:24.579Z"
   },
   "title": "AWS Meetup Vienna #54 - hosted by Erste Digital",
   "tagline": "November brings us to Erste Digital for another AWS Meetup in Vienna!",
@@ -65,8 +65,8 @@
         "speakers": [
           {
             "name": "Florian Motlik",
-            "role": "Independent AWS Cloud Consultant",
-            "company": "Co-founder of attendit.at",
+            "role": "Independent AWS Cloud Consultant, co-founder",
+            "company": "attendit.at",
             "photo": "events/2026-11-26-aws-meetup-vienna-54/assets/florian-motlik.png",
             "links": [
               {
